@@ -9,6 +9,7 @@ import purgecss from "gulp-purgecss";
 import sourcemaps from "gulp-sourcemaps";
 import atimport from "postcss-import";
 import tailwindcss from "tailwindcss";
+import nested from "postcss-nested";
 
 const rawStylesheet = "src/style.css";
 const siteRoot = "_site";
@@ -46,7 +47,7 @@ task("processStyles", done => {
   browserSync.notify("Compiling styles...");
 
   return src(rawStylesheet)
-    .pipe(postcss([atimport(), tailwindcss(tailwindConfig)]))
+    .pipe(postcss([atimport(), nested(), tailwindcss(tailwindConfig)]))
     .pipe(gulpif(devBuild, sourcemaps.init()))
     .pipe(
       gulpif(
@@ -62,7 +63,7 @@ task("processStyles", done => {
         })
       )
     )
-    .pipe(gulpif(!devBuild, postcss([autoprefixer(), cssnano()])))
+    .pipe(gulpif(!devBuild, postcss([autoprefixer(), nested(), cssnano()])))
     .pipe(gulpif(devBuild, sourcemaps.write("")))
     .pipe(dest(cssRoot));
 });
@@ -82,6 +83,7 @@ task("startServer", () => {
       "**/*.css",
       "**/*.gif",
       "**/*.html",
+      "**/*.md",
       "**/*.jpg",
       "**/*.jpeg",
       "**/*.js",

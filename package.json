@@ -13,9 +13,10 @@
     "gulp-if": "^2.0.2",
     "gulp-postcss": "^7.0.0",
     "gulp-purgecss": "^1.1.1",
-    "gulp-sourcemaps": "^2.6.4",
     "postcss-import": "^11.1.0",
-    "tailwindcss": "^0.7.3"
+    "postcss-nested": "^3.0.0",
+    "tailwindcss": "^0.7.3",
+    "gulp-sourcemaps": "^2.6.4"
   },
   "scripts": {
     "build": "NODE_ENV=production gulp",
@@ -23,5 +24,8 @@
     "start": "gulp serve"
   },
   "author": "Taylor Bryant",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss-flexbox-order": "^1.0.0"
+  }
 }

@@ -1,12 +1,95 @@
-<!doctype html>
-<html class="no-js" lang="">
-
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Tailwind Jekyll Starter Kit</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-</head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="Brody MacLean is a Product Designer based in Sydney.">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1">
+  
+    <link rel="icon" href="/image/favicon/favicon.ico" sizes="32x32" type="img/png">
+      
+    <!-- generics -->
+    <link rel="icon" href="/image/favicon/favicon-32.png"  sizes="32x32">
+    <link rel="icon" href="/image/favicon/favicon-57.png"  sizes="57x57">
+    <link rel="icon" href="/image/favicon/favicon-76.png"  sizes="76x76">
+    <link rel="icon" href="/image/favicon/favicon-96.png"  sizes="96x96">
+    <link rel="icon" href="/image/favicon/favicon-128.png" sizes="128x128">
+    <link rel="icon" href="/image/favicon/favicon-196.png" sizes="196x196">
+    <link rel="icon" href="/image/favicon/favicon-228.png" sizes="228x228">
+    <link rel="icon" href="/image/favicon/favicon.ico" sizes="32x32" type="img/png">
+    <meta name="theme-color" content="#CE5374">
 
-<body>
+    <!-- Android -->
+    <link rel="shortcut icon" href="/image/favicon/favicon-196.png" sizes="196x196">
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="/image/favicon/favicon-120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/image/favicon/favicon-152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/image/favicon/favicon-180.png" sizes="180x180">
+    <!-- Windows -->
+    <meta name="msapplication-TileColor" content="#CE5374">
+    <meta name="msapplication-TileImage" content="images/favicon/favicon-144.png">
+    <!-- Safari -->
+    <link rel="mask-icon" href="/image/favicon/safari-pinned-tab.svg" color="#CE5374">
+
+    <link rel="me" href="https://twitter.com/BrodyMacLean">
+    <link rel="canonical" href="http://brody.com/">
+  
+    <meta property="article:author" content="Brody MacLean" />
+  
+    <meta property="og:site_name" content="Brody MacLean – Senior Product Designer" />
+    <meta property="og:url" content="http://brody.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.thumbnail | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@BrodyMaclean">
+    <meta name="twitter:creator" content="@BrodyMaclean">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.thumbnail | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  
+    <script src="/js/jquery.js"></script>
+    <script src="/js/js.cookie.min.js"></script>
+
+    <script type="text/javascript">
+      if (Cookies.get("theme")=="night"){
+          $('html').addClass('night');
+          $(document).ready(function() {
+            $("#toggle-night svg").addClass("text-primary-01");
+          });
+          console.log("theme == night");
+      }
+      
+      else if(Cookies.get("theme")=="day"){
+          $("html").addClass("day");
+          $(document).ready(function() {
+            $("#toggle-day svg").addClass("text-primary-01");
+          });
+          console.log("theme == day");
+      }
+      
+      else if(Cookies.get("theme")=="konami"){
+          $("html").addClass("konami");
+          $("html").addClass("font-mono");
+          // $("html").removeClass("night");
+          // $("html").removeClass("day");
+          console.log("theme == konami");
+      }
+
+      else if(Cookies.get("theme") == null){
+          $('html').addClass('night');
+          $(function() {
+            $("#toggle-night svg").addClass("text-primary-01");
+          });
+          console.log("theme == undefined");
+      }
+    </script>
+
+    <!-- <link rel="stylesheet" href="{{ 'fonts/inter.css' | relative_url }}"> -->
+    <!-- <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}"> -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+  
+  </head>
+  
