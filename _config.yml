@@ -1,5 +1,21 @@
-title: Tailwind Jekyll Starter Kit
-description: A starter kit for using Tailwind with Jekyll
+title: Brody MacLean – Product Designer
+name: Brody MacLean
+email: hello@brody.com
+thumbnail: /assets/images/open-graph.png
+description: Lead Product Designer from Sydney, Australia.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://brody.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: brodymaclean
+github_username:  brody
+dribbble_username:  brodymaclean
+
+# Build settings
+timezone: Australia/Sydney
+markdown: kramdown
+future: false
+permalink: /:title/
+
+highlighter: rouge
 
 exclude:
   - Gemfile
@@ -12,3 +28,4 @@ exclude:
   - README.md
   - src
   - tailwind.config.js
+

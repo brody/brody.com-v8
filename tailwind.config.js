@@ -195,6 +195,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      '"Inter"',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -328,7 +329,9 @@ module.exports = {
 
   tracking: {
     'tight': '-0.05em',
+    'semi-tight': '-0.025em',
     'normal': '0',
+    'semi-wide': '0.025em',
     'wide': '0.05em',
   },
 
@@ -493,7 +496,10 @@ module.exports = {
     '12': '3rem',
     '16': '4rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
+    '36': '9rem',
+    '40': '10rem',
     '48': '12rem',
     '64': '16rem',
     '1/2': '50%',
@@ -542,9 +548,13 @@ module.exports = {
     '12': '3rem',
     '16': '4rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
+    '36': '9rem',
+    '40': '10rem',
     '48': '12rem',
     '64': '16rem',
+    '80': '20rem',
     'full': '100%',
     'screen': '100vh',
   },
@@ -675,7 +685,10 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
+    '36': '9rem',
+    '40': '10rem'
   },
 
 
@@ -711,7 +724,10 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
+    '36': '9rem',
+    '40': '10rem'
   },
 
 
@@ -746,7 +762,10 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
+    '36': '9rem',
+    '40': '10rem'
   },
 
 
