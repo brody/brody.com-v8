@@ -2,7 +2,7 @@
 
 ### Powered by...
 * Site Generator — [Jekyll](http://jekyllrb.com)
-* Hosted — [Github Pages](https://pages.github.com)
+* Hosted — [Netlify](https://netlify.com)
 * CSS Framework — [Tailwind CSS](https://tailwindcss.com)
 * Code Editor — [Visual Studio Code](https://code.visualstudio.com/)
 * Writing — [Atom](http://atom.io)
