@@ -1,7 +1,5 @@
-// The below only loads on the about page /////////////////////
-
 $(document).ready(function () {
-  if (window.location.pathname == '/about/') {
+  // if (window.location.pathname == '/about/') {
 
     /**
      * Timeago is a jQuery plugin that makes it easy to support automatically
@@ -291,5 +289,5 @@ $(document).ready(function () {
     });
 
 
-  }
+  // }
 });
