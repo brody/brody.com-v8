@@ -48,7 +48,7 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.thumbnail | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-  
+
     <script src="/js/jquery.js"></script>
     <script src="/js/js.cookie.min.js"></script>
 
@@ -60,7 +60,6 @@
           });
           console.log("theme == night");
       }
-      
       else if(Cookies.get("theme")=="day"){
           $("html").addClass("day");
           $(document).ready(function() {
@@ -68,15 +67,11 @@
           });
           console.log("theme == day");
       }
-      
       else if(Cookies.get("theme")=="konami"){
           $("html").addClass("konami");
           $("html").addClass("font-mono");
-          // $("html").removeClass("night");
-          // $("html").removeClass("day");
           console.log("theme == konami");
       }
-
       else if(Cookies.get("theme") == null){
           $('html').addClass('night');
           $(function() {
@@ -86,8 +81,8 @@
       }
     </script>
 
-    <!-- <link rel="stylesheet" href="{{ 'fonts/inter.css' | relative_url }}"> -->
-    <!-- <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}"> -->
+{% include analytics.html %}
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
   
