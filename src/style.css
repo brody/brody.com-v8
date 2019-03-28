@@ -126,7 +126,7 @@ html {
 
 /**
  * Here you would add any custom utilities you need that don't come out of the
- * box with Tailwind.
+ * box with Tailwind. 
  *
  * Example :
  *
@@ -308,9 +308,9 @@ mark {
 
 
 #draw {
-  cursor: -webkit-image-set(url("/image/cursor/pencil.png") 1x, url("/image/cursor/pencil@2x.png") 2x) 5 22, url("/image/cursor/pencil.cur"), crosshair;
-  cursor: image-set(url("/image/cursor/pencil.png") 1x, url("/image/cursor/pencil@2x.png") 2x) 5 22, url("/image/cursor/pencil.cur"), crosshair;
-  cursor: url("/image/cursor/pencil.png") 5 22, url("/image/cursor/pencil.cur"), crosshair;
+  cursor: url("/image/cursor/cursor.png") 5 22, url("/image/cursor/cursor.cur"), crosshair;
+  cursor: -webkit-image-set(url("/image/cursor/cursor.png") 1x, url("/image/cursor/cursor@2x.png") 2x) 5 22, url("/image/cursor/cursor.cur"), crosshair;
+  cursor: image-set(url("/image/cursor/cursor.png") 1x, url("/image/cursor/cursor@2x.png") 2x) 5 22, url("/image/cursor/cursor.cur"), crosshair;
 }
 
 
