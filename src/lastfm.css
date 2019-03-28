@@ -37,20 +37,21 @@
       font-size: 1em;
     }
   
-    #lastFM-recent-tracks .date,
-    #lastFM-top-artists .play-count {
+    & #lastFM-recent-tracks .date,
+    & #lastFM-top-artists .play-count {
       font-size: 0.8em;
       margin-top: 10px;
       margin-bottom: 4px;
       opacity: 0.8;
     }
   
-    .track--now-playing::after {
+    /* purgecss ignore */
+    & .track--now-playing::after {
       content: url("/image/lastfm/track-nowplaying.gif");
       margin-left: 4px;
     }
   
-    .button {
+    & .button {
       display: flex;
       align-items: center;
       border-bottom: 0;
