@@ -76,6 +76,7 @@ html {
   /* --colorBackground: #F7F7F7; */
   --colorBackgroundPrimary: rgb(81%, 33%, 45%);
   --colorBackgroundPrimary02: #D399A8;
+  --colorBackgroundPrimary03: rgba(81%, 33%, 45%, .25);
   --colorForeground01: #080808;
   --colorForeground02: #3B3B3B;
   --colorForeground03: #6E6E6E;
@@ -91,6 +92,7 @@ html {
   --colorBackground: #080808;
   --colorBackgroundPrimary: rgb(81%, 33%, 45%);
   --colorBackgroundPrimary02: #9F2D4C;
+  --colorBackgroundPrimary03: rgba(81%, 33%, 45%, .4);
   --colorForeground01: #F7F7F7;
   --colorForeground02: #C4C4C4;
   --colorForeground03: #919191;
@@ -106,6 +108,7 @@ html {
   --colorBackground: #0A091E;
   --colorBackgroundPrimary: #34E5E9;
   --colorBackgroundPrimary02: #00989C;
+  --colorBackgroundPrimary03: rgba(52, 229, 233, .4);
   --colorForeground01: #FFF;
   --colorForeground02: #FFCCF6;
   --colorForeground03: #FF80E9;
@@ -271,10 +274,10 @@ section a:hover, .post-body a:hover {
 }
 
 mark {
-  background-color: var(--colorPrimary01);
+  background-color: var(--colorBackgroundPrimary03);
   margin: -.05em;
   padding: .05em;
-  color: white;
+  color: var(--colorForeground01);
 }
 
 #work a h1::after {
