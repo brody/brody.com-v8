@@ -41,3 +41,12 @@ $(window).scroll(function(){
        $('#logo').removeClass('collapse');
     }
 });
+
+
+// Smooth Scroll to Anchor
+
+$("a[href='/#work']").on("click", function () {
+    $("html, body").animate({
+        scrollTop: $("#work").offset().top-180
+    }, 1000);
+});

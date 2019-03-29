@@ -27,15 +27,38 @@ permalink: /404.html
     return images[Math.floor(Math.random() * 17)];
   }
 
-  $(document).ready(function () {
-    $("#404gif").attr('src', getRandomImage());
-  });
+  function getRandomVideo() {
+    var videos = [
+      "https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.mp4", //travolta
+      "https://media.giphy.com/media/D3lRpp7jQietO/giphy.mp4", //britney
+      "https://media.giphy.com/media/RBeddeaQ5Xo0E/giphy.mp4", // judge judy
+      "https://media.giphy.com/media/O5pd2oPjjcGFW/giphy.mp4", // cat
+      "https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.mp4", // picard
+      "https://media.giphy.com/media/27EhcDHnlkw1O/giphy.mp4", // face palm montage
+      "https://media.giphy.com/media/Ra1bmpxpsppNC/giphy.mp4", // 
+      "https://media.giphy.com/media/CPskAi4C6WLHa/giphy.mp4" // confused girl 2
+    ];
+    return videos[Math.floor(Math.random() * 8)];
+  }
+
+  if ($(window).width() < 768) {
+    $(document).ready(function () {
+      $("#404-gif").attr('src', getRandomImage());
+    });
+  }
+  else {
+    $(document).ready(function () {
+      $("#404-vid").attr('src', getRandomVideo());
+    });
+  }
+
 </script>
 
-<section class="containter h-screen w-screen flex items-center justify-center text-center px-4 -mt-4 md:-mt-8">
+<section class="404 containter h-screen w-screen flex items-center justify-center text-center px-4 -mt-4 md:-mt-8">
   <div class="text-02 max-w-sm w-full">
-    <img class="w-full" id="404gif" src="" alt="404">
-    <h2 class="text-2xl lg:text-3xl my-3 glitch" data-text="Oh no!">Oh no, page not found!</h2>
-    <div class="text-02 text-lg lg:text-xl mt-3 mb-8">It's probably best to just head <a class="" href="/">home</a>.</div>
+    <img class="w-full block md:hidden" id="404-gif" src="" alt="404">
+    <video class="w-full pointer-events-none hidden md:block" id="404-vid" src="" autoplay="" muted="" loop=""></video>
+    <h2 class="text-2xl lg:text-3xl mt-4 mb-3 glitch" data-text="Page not found!">Page not found!</h2>
+    <div class="text-02 text-lg lg:text-xl mt-3 mb-8">It's probably best to head <a class="" href="/">home</a>.</div>
   </div>
 </section>

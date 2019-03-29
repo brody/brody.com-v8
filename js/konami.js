@@ -57,7 +57,6 @@ var Konami = {};
 $(document).on('keyup',
 
 	Konami.code(function() {
-		// alert('Congratulations, 30 lives!');
 		$(function () {
 			Cookies.set('theme', 'konami', { expires: 7 });
 			$("html").addClass("konami");
@@ -72,7 +71,7 @@ $(document).on('keyup',
 				var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 				if (currentScroll > 0) {
 					 window.requestAnimationFrame(smoothscroll);
-					 window.scrollTo (0,currentScroll - (currentScroll/32));
+					 window.scrollTo (0,currentScroll - (currentScroll/12));
 				}
 			})();
 		});
