@@ -248,12 +248,12 @@ html {
 
 .nav-open #sandwich #bread-top {
   transform: rotate(-45deg);
-  top: 8px;
+  top: 10px;
 }
 
 .nav-open #sandwich #bread-bottom {
   transform: rotate(45deg);
-  top: 8px;
+  top: 10px;
 }
 
 section a, .post-body p a {

@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: post
 
 title:  Hudl Design Challenge
 sub-title: Product Designer (2015)

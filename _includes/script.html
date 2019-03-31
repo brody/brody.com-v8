@@ -1,4 +1,10 @@
 <script src="/js/script.js"></script>
+{% if page.url contains '/about'  %}
 <script src="/js/lastfm.js"></script>
+{% endif %}
+{% if page.url contains '/work/'  %}
+<script src="/js/zoom.js"></script>
+{% else %}
 <script src="/js/draw.js"></script>
+{% endif %}
 <script src="/js/konami.js"></script>
