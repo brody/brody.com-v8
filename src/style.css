@@ -1,5 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
- 
+
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -120,7 +120,8 @@ html {
   --colorMobileText: #DDD;
 }
 
-#draw, #wip {
+#draw,
+#wip {
   /* display: none; */
 }
 
@@ -140,8 +141,9 @@ html {
  */
 
 
+/* purgecss start ignore */
 
- @responsive {
+@responsive {
   .order-0 {
     order: 0;
   }
@@ -174,6 +176,7 @@ html {
   .bg {
     background-color: var(--colorBackground);
   }
+
   .bg-primary {
     background-color: var(--colorBackgroundPrimary);
   }
@@ -256,7 +259,8 @@ html {
   top: 10px;
 }
 
-section a, .post-body p a {
+section a,
+.post-body p a {
   color: var(--colorForeground01);
   box-shadow: inset 0 -2px 0 var(--colorForeground04);
   /* margin: -.025em; */
@@ -269,7 +273,8 @@ section a, .post-body p a {
   margin-bottom: -1px; */
 }
 
-section a:hover, .post-body a:hover {
+section a:hover,
+.post-body a:hover {
   color: var(--colorPrimary01);
 }
 
@@ -291,6 +296,7 @@ mark {
   transition: 0.4s;
   opacity: .5;
 }
+
 #work a:hover h1::after {
   width: 100%;
 }
@@ -306,15 +312,13 @@ mark {
   width: 11.7px;
 }
 
-
 #draw {
   cursor: url("/image/cursor/cursor.png") 5 22, url("/image/cursor/cursor.cur"), crosshair;
   cursor: -webkit-image-set(url("/image/cursor/cursor.png") 1x, url("/image/cursor/cursor@2x.png") 2x) 5 22, url("/image/cursor/cursor.cur"), crosshair;
   cursor: image-set(url("/image/cursor/cursor.png") 1x, url("/image/cursor/cursor@2x.png") 2x) 5 22, url("/image/cursor/cursor.cur"), crosshair;
 }
 
-
- /* Zoom */
+/* Zoom */
 
 img[data-action="zoom"] {
   cursor: pointer;
@@ -325,11 +329,13 @@ img[data-action="zoom"] {
 .zoom-img-wrap {
   position: relative;
   z-index: 666;
-  transition: all 300ms; }
+  transition: all 300ms;
+}
 
 img.zoom-img {
   cursor: pointer;
-  cursor: zoom-out; }
+  cursor: zoom-out;
+}
 
 .zoom-overlay {
   z-index: 400;
@@ -341,11 +347,16 @@ img.zoom-img {
   bottom: 0;
   pointer-events: none;
   opacity: 0;
-  transition: opacity 300ms; }
+  transition: opacity 300ms;
+}
 
 .zoom-overlay-open .zoom-overlay {
-  opacity: .9; }
+  opacity: .9;
+}
 
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
-  cursor: default; }
+  cursor: default;
+}
+
+/* purgecss end ignore */
