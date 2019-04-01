@@ -49,4 +49,7 @@ $("a[href='/#work']").on("click", function () {
     $("html, body").animate({
         scrollTop: $("#work").offset().top-180
     }, 1000);
+    $("#menu").toggleClass("hidden");
+    $("#theme-toggle").toggleClass("hidden");
+    $("#nav").toggleClass("nav-open");
 });
