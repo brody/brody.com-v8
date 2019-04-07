@@ -1,9 +1,4 @@
 // Hat tip http://jsfiddle.net/dsytkbjc/1/
-
-function test(){
-	alert("tested");
-};
-
 	
 function draw() {
 		var canvas = document.querySelector('#paint');

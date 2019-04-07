@@ -55,33 +55,21 @@
 @import "glitch.css";
 @import "post.css";
 
-
-html {
-  font-family: 'Inter', sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-  }
-}
-
 ::selection {
-  background-color: var(--colorPrimary02);
+  background-color: var(--colorPrimary01);
   color: white;
 }
 
 .day {
   --colorBackground: #FFF;
-  /* --colorBackground: #F7F7F7; */
-  --colorBackgroundPrimary: rgb(81%, 33%, 45%);
+  --colorBackgroundPrimary: #CE5374;
   --colorBackgroundPrimary02: #D399A8;
-  --colorBackgroundPrimary03: rgba(81%, 33%, 45%, .25);
+  --colorBackgroundPrimary03: #FFBDCD;
   --colorForeground01: #080808;
   --colorForeground02: #3B3B3B;
   --colorForeground03: #6E6E6E;
   --colorForeground04: #A1A1A1;
-  --colorPrimary01: #ce5374;
+  --colorPrimary01: #CE5374;
   --colorPrimary02: #9F2D4C;
   --colorPrimary03: #E9CCD4;
   --colorMobileBar: #121212;
@@ -90,14 +78,14 @@ html {
 
 .night {
   --colorBackground: #080808;
-  --colorBackgroundPrimary: rgb(81%, 33%, 45%);
+  --colorBackgroundPrimary: #CE5374;
   --colorBackgroundPrimary02: #9F2D4C;
-  --colorBackgroundPrimary03: rgba(81%, 33%, 45%, .4);
+  --colorBackgroundPrimary03: #661E32;
   --colorForeground01: #F7F7F7;
   --colorForeground02: #C4C4C4;
   --colorForeground03: #919191;
   --colorForeground04: #5E5E5E;
-  --colorPrimary01: #ce5374;
+  --colorPrimary01: #CE5374;
   --colorPrimary02: #E189A1;
   --colorPrimary03: #5E3B44;
   --colorMobileBar: #121212;
@@ -105,10 +93,42 @@ html {
 }
 
 .konami {
+  --colorBackground: #0A0039;
+  --colorBackgroundPrimary: #FC4F5E;
+  --colorBackgroundPrimary02: #DB2C3B;
+  --colorBackgroundPrimary03: #3D00D9;
+  --colorForeground01: #FFF;
+  --colorForeground02: #CEBFF2;
+  --colorForeground03: #8870C4;
+  --colorForeground04: #9974F7;
+  --colorPrimary01: #FC4F5E;
+  --colorPrimary02: #DB2C3B;
+  --colorPrimary03: #3D00D9;
+  --colorMobileBar: #121212;
+  --colorMobileText: #DDD;
+}
+
+/* .konami {
+  --colorBackground: #080A54;
+  --colorBackgroundPrimary: #CE5374;
+  --colorBackgroundPrimary02: #9F2D4C;
+  --colorBackgroundPrimary03: #02054F;
+  --colorForeground01: #FFF;
+  --colorForeground02: #BCBEE0;
+  --colorForeground03: #8B8DCC;
+  --colorForeground04: #676BB5;
+  --colorPrimary01: #CE5374;
+  --colorPrimary02: #E189A1;
+  --colorPrimary03: #02054F;
+  --colorMobileBar: #121212;
+  --colorMobileText: #DDD;
+} */
+/* 
+.konami {
   --colorBackground: #0A091E;
-  --colorBackgroundPrimary: #34E5E9;
-  --colorBackgroundPrimary02: #00989C;
-  --colorBackgroundPrimary03: rgba(52, 229, 233, .4);
+  --colorBackgroundPrimary: #00989C;
+  --colorBackgroundPrimary02: #008285;
+  --colorBackgroundPrimary03: #561A4F;
   --colorForeground01: #FFF;
   --colorForeground02: #FFCCF6;
   --colorForeground03: #FF80E9;
@@ -118,7 +138,7 @@ html {
   --colorPrimary03: #064250;
   --colorMobileBar: #121212;
   --colorMobileText: #DDD;
-}
+} */
 
 #draw,
 #wip {

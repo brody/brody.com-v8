@@ -229,6 +229,16 @@ module.exports = {
       'Courier New',
       'monospace',
     ],
+    'comic': [
+      '"comic sans ms"',
+      '"comic sans"',
+      '"Comicfont"',
+      '"Marker Felt"',
+      'tahoma',
+      'verdana',
+      'arial',
+      'sans-serif',
+    ],
   },
 
 

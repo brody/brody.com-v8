@@ -62,7 +62,7 @@ $(document).on('keyup',
 			$("html").addClass("konami");
 			$("html").removeClass("night");
 			$("html").removeClass("day");
-			$("html").addClass("font-mono");
+			$("html").addClass("font-comic");
 			$("#theme-toggle svg").removeClass("text-primary-01");
 			$(".konami").append("<audio id='1up' preload='auto'><source src='/audio/1-up.wav' type='audio/wav'></audio>");
 			$("audio#1up")[0].play();

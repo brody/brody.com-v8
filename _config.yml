@@ -1,8 +1,8 @@
-title: Brody MacLean – Product Designer
+title: Brody MacLean – Product Design Lead
 name: Brody MacLean
 email: hello@brody.com
-thumbnail: /assets/images/open-graph.png
-description: Lead Product Designer from Sydney, Australia.
+thumbnail: /image/og/open-graph.png
+description: Product Design Lead from Sydney, Australia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://brody.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brodymaclean
@@ -12,7 +12,7 @@ dribbble_username:  brodymaclean
 # Build settings
 timezone: Australia/Sydney
 markdown: kramdown
-future: false
+future: true
 permalink: /:title/
 
 highlighter: rouge

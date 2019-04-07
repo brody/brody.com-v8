@@ -2,8 +2,10 @@
 {% if page.url contains '/about'  %}
 <script src="/js/lastfm.js"></script>
 {% endif %}
-{% if page.url contains '/work/'  %}
+{% if page.script == 'zoom'  %}
 <script src="/js/zoom.js"></script>
+{% endif %}
+{% if page.script == 'nodraw'  %}
 {% else %}
 <script src="/js/draw.js"></script>
 {% endif %}

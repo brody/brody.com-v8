@@ -5,8 +5,8 @@ title:  A month off alcohol
 tags:
 - life
 date:   2017-05-01 10:21:03
-thumbnail: /image/post/alcohol-free-month/dry-may.jpg
-feature-image: /image/post/alcohol-free-month/dry-may.jpg
+thumbnail: /image/post/alcohol-free-month/thumb.jpg
+feature-image: /image/post/alcohol-free-month/thumb.jpg
 category: journal
 description: I can already hear the jeers from friends, but having abstained for 4 week blocks in the past, I know there are plenty benefits to taking a break from the hard stuff.
 ---
