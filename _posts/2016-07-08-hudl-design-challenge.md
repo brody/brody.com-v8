@@ -6,7 +6,7 @@ sub-title: Product Designer (2015)
 date: 2016-07-08 00:00:00 Australia/Sydney
 
 permalink: work/hudl/
-thumbnail: /image/work/hudl/thumbg.png
+thumbnail: /image/work/hudl/thumb.png
 script: zoom, nodraw
 
 category: work

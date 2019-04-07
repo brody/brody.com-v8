@@ -6,7 +6,7 @@ sub-title:
 date: 2019-04-05 00:00:00 Australia/Sydney
 
 permalink: /meeting-warm-up/
-thumbnail:
+thumbnail: /image/post/meeting-warm-up/thumb.png
 category: journal
 tags: Design
 script: zoom
@@ -30,7 +30,7 @@ book-rating:
   <img data-action="zoom" src="/image/post/meeting-warm-up/feature.png" alt="Meeting warm up">
 </div>
 
-Recently, I've been running a game of Pictionary, before our designer catch up meetings, to break the ice and get the creative juices flowing.
+Recently, I've been running a game of Pictionary, before our designer catch-up meetings, to break the ice and get the creative juices flowing.
 
 You only need a few things to run one yourself, with both local and remote team members alike.
 
@@ -42,14 +42,14 @@ You only need a few things to run one yourself, with both local and remote team 
 - Screen Sharing — [Appear.in](https://appear.in/), [Google Meet](https://meet.google.com/), or [Zoom](https://zoom.us/)
 
 ## Nice to have
-- iPad with Apple Pencil & corosponding Whiteboard app
+- iPad with Apple Pencil & corresponding Whiteboard app
 
 # Recipe
 1. Pick team members of 2 at random
 2. Share & display the whiteboard using the screen sharing/meeting app
 3. Get team member ready, with canvas centered
 4. Hit Generate on the whiteboard generator & privately show drawer the word/phrase
-5. Start the 1 minute timer
+5. Start the 1-minute timer
 6. Record the time remaining, when guesser correctly guesses. This is their score.
 7. Repeat for each team of 2.
 8. Highest score wins. 🏆
