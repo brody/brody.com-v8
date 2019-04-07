@@ -2,11 +2,11 @@
 {% if page.url contains '/about'  %}
 <script src="/js/lastfm.js"></script>
 {% endif %}
-{% if page.script == 'nodraw'  %}
+{% if page.script contains 'nodraw'  %}
 {% else %}
 <script src="/js/draw.js"></script>
 {% endif %}
-{% if page.script == 'zoom'  %}
+{% if page.script contains 'zoom'  %}
 <script src="/js/zoom.js"></script>
 {% endif %}
 <script src="/js/konami.js"></script>
