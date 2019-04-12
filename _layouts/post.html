@@ -2,7 +2,6 @@
 
 <!-- 
 
-
  ******   *******     *******   *******   **    **      
 /*////** /**////**   **/////** /**////** //**  **       
 /*   /** /**   /**  **     //**/**    /** //****        
@@ -12,10 +11,9 @@
 /******* /**   //** //*******  /*******     /**         
 ///////  //     //   ///////   ///////      //         Hi! 👋       
 
-
 -->
 
-<html class="antialiased font-sans leading-normal relative" lang="en">
+<html class="antialiased font-sans leading-normal relative sr" lang="en">
 
 {% include head.html %}
 
@@ -28,8 +26,6 @@
 
     {% include nav.html %}
 
-    {% include wip.html %}
-
     <div class="post container text-02 max-w-xl mx-auto px-5 md:px-16 pt-12 md:pt-8">
 
         <section class="post-header mb-8 md:mt-16 md:mb-16">
@@ -38,17 +34,17 @@
                 data-text="{{ page.date | date: '%-d %B %Y' }}"
                 datetime="{{ page.date | date: ' %Y-%m-%d ' }}">{{ page.date | date: "%-d %B %Y" }}</time>
 
-            <h1 class="glitch text-2xl font-normal lg:text-4xl my-8 md:my-10" data-text="{{ page.title }}">
+            <h1 class="glitch text-2xl font-normal lg:text-4xl my-8 md:my-10 reveal" data-text="{{ page.title }}">
                 {{ page.title }}
             </h1>
 
             {% if page.sub-title != nil %}
-            <h2 class="text-xl text-03 font-normal lg:text-2xl -mt-4 mb-8 md:mb-10 md:-mt-5">{{ page.sub-title }}</h2>
+            <h2 class="text-xl text-03 font-normal lg:text-2xl -mt-4 mb-8 md:mb-10 md:-mt-5 reveal">{{ page.sub-title }}</h2>
             {% endif %}
 
         </section>
 
-        <section class="post-body text-02 text lg:text-xl mt-3 mb-24 md:mb-40">
+        <section class="post-body text-02 text lg:text-xl mt-3 mb-24 md:mb-40 reveal">
 
             {% include source.html %}
 

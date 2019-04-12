@@ -50,6 +50,7 @@
 
 @import "tailwind.css";
 
+@import "animate.css";
 @import "lastfm.css";
 @import "goodreads.css";
 @import "glitch.css";
@@ -377,6 +378,10 @@ img.zoom-img {
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
   cursor: default;
+}
+
+html.sr .reveal {
+  visibility: hidden;
 }
 
 /* purgecss end ignore */
