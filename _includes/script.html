@@ -13,5 +13,10 @@
 {% endif %}
 {% if page.script contains 'zoom'  %}
 <script src="/js/zoom.js"></script>
+<script>
+  $(document.body).on("click", '[data-action="zoom"]', function () {
+    ScrollReveal().clean('.reveal' );
+    });
+</script>
 {% endif %}
 <script src="/js/konami.js"></script>

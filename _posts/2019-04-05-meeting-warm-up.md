@@ -59,3 +59,7 @@ Enjoy! 👍
 <div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
   <img data-action="zoom" src="/image/post/meeting-warm-up/sketches.png" alt="Sketches">
 </div>
+
+<div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
+  <img data-action="zoom" src="/image/post/meeting-warm-up/sketches2.png" alt="Sketches">
+</div>
