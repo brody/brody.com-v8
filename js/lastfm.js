@@ -249,7 +249,7 @@ $(document).ready(function () {
       $.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getTopArtists&user=brodym&api_key=75176bb2349e51a475ea56ac979f7dc4&period=1month&limit=5&format=json&callback=?", function (json) {
         var html = '';
         $.each(json.topartists.artist, function (i, item) {
-          html += "<li><img src='https://tse2.mm.bing.net/th?q=%27+" + item.name + "+%27%20music+artist+spotify.com&w=300&h=300&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=on' alt=" + item.name + "><div class='artist'><a href=" + item.url + " target='_blank'>" + item.name + "</a></div><div class='play-count'>" + item.playcount + " plays" + "</div></li>"
+          html += "<li><img src='https://tse2.mm.bing.net/th?q=%27+" + item.name + "+%27%20music+artist+site:last.fm&w=300&h=300&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=on' alt=" + item.name + "><div class='artist'><a href=" + item.url + " target='_blank'>" + item.name + "</a></div><div class='play-count'>" + item.playcount + " plays" + "</div></li>"
         });
         $('#lastFM-top-artists ul').append(html);
       });
