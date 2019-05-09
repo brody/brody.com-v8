@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+/* @import url('https://rsms.me/inter/inter.css'); */
 
 /**
  * This injects Tailwind's base styles, which is a combination of
@@ -50,6 +50,7 @@
 
 @import "tailwind.css";
 
+@import "inter.css";
 @import "animate.css";
 @import "lastfm.css";
 @import "goodreads.css";
@@ -292,6 +293,10 @@ section a,
   transition: color .234s, box-shadow .234s;
   /* text-decoration-style: dotted;
   margin-bottom: -1px; */
+}
+
+.font-swap {
+  font-display: swap;
 }
 
 section a:hover,

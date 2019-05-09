@@ -18,6 +18,14 @@
     margin: 0 24px 0 0;
     float: left;
   }
+  /* & #lastFM-top-artists {
+    & img {
+      display: none;
+    }
+    & li {
+      min-height: auto;
+    }
+  } */
 
   & #lastFM-recent-tracks .track,
   & #lastFM-top-artists .artist {
