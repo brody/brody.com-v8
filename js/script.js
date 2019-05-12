@@ -9,7 +9,7 @@ $(function () {
     $("#toggle-day").on("click", function () {
         Cookies.set('theme', 'day', { expires: 7 });
         $("html").removeClass("night");
-        $("html").removeClass("font-comic");
+        $("html").removeClass("font-mono");
         $("html").addClass("day");
         $("#theme-toggle svg").removeClass("text-primary-01");
         $(this).find("svg").addClass("text-primary-01");
@@ -21,7 +21,7 @@ $(function () {
     $("#toggle-night").on("click", function () {
         Cookies.set('theme', 'night', { expires: 7 });
         $("html").removeClass("day");
-        $("html").removeClass("font-comic");
+        $("html").removeClass("font-mono");
         $("html").addClass("night");
         $("#theme-toggle svg").removeClass("text-primary-01");
         $(this).find("svg").addClass("text-primary-01");
@@ -35,10 +35,8 @@ $(function () {
         $("html").addClass("konami");
         $("html").removeClass("night");
         $("html").removeClass("day");
-        $("html").addClass("font-comic");
+        $("html").addClass("font-mono");
         $("#theme-toggle svg").removeClass("text-primary-01");
-        $(".konami").append("<audio id='1up' preload='auto'><source src='/audio/1-up.wav' type='audio/wav'></audio>");
-        $("audio#1up")[0].play();
         draw();
         (function smoothscroll(){
             var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
