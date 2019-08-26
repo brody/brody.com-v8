@@ -1,11 +1,19 @@
 <script src="/js/script.js"></script>
 <script src="/js/wow.js"></script>
 <script>
-    ScrollReveal().reveal('.reveal', { delay: 150, duration: 1000, viewOffset: { bottom: 60 }, distance: '60px' } );
+  ScrollReveal().reveal('.reveal', {
+    delay: 150,
+    duration: 1000,
+    viewOffset: {
+      bottom: 60
+    },
+    distance: '60px'
+  });
 </script>
 
 {% if page.url contains '/about'  %}
 <script src="/js/lastfm.js"></script>
+<script src="/js/rss.js"></script>
 {% endif %}
 {% if page.script contains 'nodraw'  %}
 {% else %}
@@ -15,8 +23,8 @@
 <script src="/js/zoom.js"></script>
 <script>
   $(document.body).on("click", '[data-action="zoom"]', function () {
-    ScrollReveal().clean('.reveal' );
-    });
+    ScrollReveal().clean('.reveal');
+  });
 </script>
 {% endif %}
 <script src="/js/konami.js"></script>
