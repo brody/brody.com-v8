@@ -19,10 +19,10 @@
 
 <body class="bg transition-background mt-0 mb-24 md:mt-24 md:mb-0 lg:mt-36">
 
-    {% if page.url contains '/work/'  %}
+    <!-- {% if page.url contains '/work/'  %}
     {% else %}
     {% include draw.html %}
-    {% endif %}
+    {% endif %} -->
 
     {% include nav.html %}
 
@@ -34,12 +34,14 @@
                 data-text="{{ page.date | date: '%-d %B %Y' }}"
                 datetime="{{ page.date | date: ' %Y-%m-%d ' }}">{{ page.date | date: "%-d %B %Y" }}</time>
 
-            <h1 class="glitch font-normal text-2xl md:text-3xl lg:text-4xl my-8 md:my-10 reveal" data-text="{{ page.title }}">
+            <h1 class="glitch font-normal text-2xl md:text-3xl lg:text-4xl my-8 md:my-10 reveal"
+                data-text="{{ page.title }}">
                 {{ page.title }}
             </h1>
 
             {% if page.sub-title != nil %}
-            <h2 class="text-xl text-03 font-normal lg:text-2xl -mt-4 mb-8 md:mb-10 md:-mt-5 reveal">{{ page.sub-title }}</h2>
+            <h2 class="text-xl text-03 font-normal lg:text-2xl -mt-4 mb-8 md:mb-10 md:-mt-5 reveal">{{ page.sub-title }}
+            </h2>
             {% endif %}
 
         </section>

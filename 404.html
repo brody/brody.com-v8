@@ -1,7 +1,19 @@
 ---
 layout: 404
 permalink: /404.html
+script: draw
 ---
+
+<section class="404 containter h-screen w-screen flex items-center justify-center text-center px-4 -mt-4 md:-mt-8"
+  id="404">
+  <div class="text-02 max-w-sm w-full reveal">
+    <img class="w-full block md:hidden" id="404-gif" src="" alt="404">
+    <video class="w-full pointer-events-none hidden md:block" id="404-vid" src="" autoplay="" muted="" loop=""></video>
+    <h2 class="text-primary-01 font-normal text-2xl lg:text-3xl mt-5 mb-2 glitch" data-text="Page not found!">Page not
+      found!</h2>
+    <div class="text-02 text-lg lg:text-xl mt-2 mb-8">It's probably best to head <a class="" href="/">home</a>.</div>
+  </div>
+</section>
 
 <script>
   function getRandomImage() {
@@ -51,20 +63,9 @@ permalink: /404.html
     $(document).ready(function () {
       $("#404-gif").attr('src', getRandomImage());
     });
-  }
-  else {
+  } else {
     $(document).ready(function () {
       $("#404-vid").attr('src', getRandomVideo());
     });
   }
-
 </script>
-
-<section class="404 containter h-screen w-screen flex items-center justify-center text-center px-4 -mt-4 md:-mt-8 reveal">
-  <div class="text-02 max-w-sm w-full">
-    <img class="w-full block md:hidden" id="404-gif" src="" alt="404">
-    <video class="w-full pointer-events-none hidden md:block" id="404-vid" src="" autoplay="" muted="" loop=""></video>
-    <h2 class="text-2xl lg:text-3xl mt-4 mb-3 glitch" data-text="Page not found!">Page not found!</h2>
-    <div class="text-02 text-lg lg:text-xl mt-3 mb-8">It's probably best to head <a class="" href="/">home</a>.</div>
-  </div>
-</section>

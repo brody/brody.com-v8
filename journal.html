@@ -2,25 +2,28 @@
 layout: default
 title: Journal
 category: journal
+script: draw
 ---
 
 <div class="container text-02 max-w-xl mx-auto px-5 md:px-16 pt-12 md:pt-8">
-  
-    <section id="journal" class="mb-24 md:mt-16 md:mb-40">
-  
-      <h4 class="text-04 uppercase font-semibold mt-5 mb-8 lg:mb-12 glitch" data-title="Journal">Journal</h4>
-  
-      {% for post in site.categories.journal %}
-  
-      <div class="journal-item max-w-md my-8 md:my-10 reveal">
-          <a href="{{ post.url }}" class="text-2xl lg:text-3xl my-8 glitch" data-title="{{ post.title }}">{{ post.title }}</a>
-          <time class="text-04 block uppercase font-semibold mt-3 mb-3"datetime="{{ post.date | date: " %Y-%m-%d " }}">{{ post.date | date: "%-d %B %Y" }}</time>
-          <p class="text-02 text-lg lg:text-xl mt-3 mb-8">{{ post.description }}</p>
-      </div>
-    
-      {% endfor %}
-  
-    </section>
-  
-  
-  </div>
+
+  <section id="journal" class="mb-24 md:mt-16 md:mb-40">
+
+    <h4 class="text-04 uppercase font-semibold mt-5 mb-8 lg:mb-12 glitch" data-title="Journal">Journal</h4>
+
+    {% for post in site.categories.journal %}
+
+    <div class="journal-item max-w-md my-8 md:my-10 reveal">
+      <a href="{{ post.url }}" class="text-2xl lg:text-3xl my-8 glitch"
+        data-title="{{ post.title }}">{{ post.title }}</a>
+      <time class="text-04 block uppercase font-semibold mt-3 mb-3"
+        datetime="{{ post.date | date: " %Y-%m-%d " }}">{{ post.date | date: "%-d %B %Y" }}</time>
+      <p class="text-02 text-lg lg:text-xl mt-3 mb-8">{{ post.description }}</p>
+    </div>
+
+    {% endfor %}
+
+  </section>
+
+
+</div>

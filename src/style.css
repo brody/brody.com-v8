@@ -1,5 +1,3 @@
-/* @import url('https://rsms.me/inter/inter.css'); */
-
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -49,8 +47,7 @@
 /* @tailwind utilities; */
 
 @import "tailwind.css";
-
-@import "inter.css";
+@import "Inter/inter.css";
 @import "animate.css";
 @import "lastfm.css";
 @import "letterboxd.css";
@@ -146,6 +143,17 @@
 #draw,
 #wip {
   /* display: none; */
+}
+
+#about-page,
+#home-page,
+#journal,
+[id='404'] {
+  pointer-events: none;
+}
+
+a {
+  pointer-events: all !important;
 }
 
 /**
@@ -327,7 +335,6 @@ mark {
 #work a:hover h1::after {
   width: 100%;
 }
-
 
 #logo #name {
   width: 60px;

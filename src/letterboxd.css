@@ -42,3 +42,29 @@
     opacity: .8;
     max-width: calc(100% - 144px);
 }
+
+#letterboxd .button {
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+    border-radius: 4px;
+    padding: 8px 18px 8px 14px;
+    font-weight: 500;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    float: left;
+    font-size: 17px;
+    border: 1px solid var(--colorForeground04);
+    -webkit-transition: border .234s;
+    transition: border .234s;
+
+
+    &:hover {
+        /* opacity: 0.8; */
+        border-color: var(--colorPrimary02);
+    }
+
+    svg {
+        margin-right: 12px;
+    }
+}
