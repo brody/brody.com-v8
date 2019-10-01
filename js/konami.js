@@ -4,7 +4,7 @@
  */
 var Konami = {};
 
-(function(Konami, window) {
+(function (Konami, window) {
 	'use strict';
 
 	/**
@@ -12,7 +12,7 @@ var Konami = {};
 	 * @param {...number|function()} arguments
 	 * @return {function(Event)}
 	 */
-	var sequence = Konami.sequence = function() {
+	var sequence = Konami.sequence = function () {
 		var sequence = Array.prototype.slice.call(arguments),
 			state = 0;
 
@@ -20,7 +20,7 @@ var Konami = {};
 		 * Event handler
 		 * @param {Event|number} e
 		 */
-		return function(e) {
+		return function (e) {
 			// patch legacy IE
 			e = (e || window.event);
 			e = (e.keyCode || e.which || e);
@@ -48,7 +48,7 @@ var Konami = {};
 	 * @param {function()} action completed sequence callback
 	 * @return {function(Event)}
 	 */
-	Konami.code = function(action) {
+	Konami.code = function (action) {
 		return sequence(38, 38, 40, 40, 37, 39, 37, 39, 66, 65, action);
 	};
 
@@ -56,22 +56,22 @@ var Konami = {};
 
 $(document).on('keyup',
 
-	Konami.code(function() {
+	Konami.code(function () {
 		$(function () {
-			Cookies.set('theme', 'konami', { expires: 7 });
-			$("html").addClass("konami");
-			$("html").removeClass("night");
-			$("html").removeClass("day");
-			$("html").addClass("font-mono");
+			localStorage.setItem("theme", "theme-konami");
+			$("body").addClass("theme-konami");
+			$("body").removeClass("theme-night");
+			$("body").removeClass("theme-day");
+			$("body").addClass("font-mono");
 			$("#theme-toggle svg").removeClass("text-primary-01");
-			$(".konami").append("<audio id='1up' preload='auto'><source src='/audio/1-up.wav' type='audio/wav'></audio>");
+			$(".theme-konami").append("<audio id='1up' preload='auto'><source src='/audio/1-up.wav' type='audio/wav'></audio>");
 			$("audio#1up")[0].play();
 			draw();
-			(function smoothscroll(){
+			(function smoothscroll() {
 				var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 				if (currentScroll > 0) {
-					 window.requestAnimationFrame(smoothscroll);
-					 window.scrollTo (0,currentScroll - (currentScroll/12));
+					window.requestAnimationFrame(smoothscroll);
+					window.scrollTo(0, currentScroll - (currentScroll / 12));
 				}
 			})();
 		});

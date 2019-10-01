@@ -60,7 +60,7 @@
   color: white;
 }
 
-.day {
+.theme-day {
   --colorBackground: #FFF;
   --colorBackgroundPrimary: #CE5374;
   --colorBackgroundPrimary02: #D399A8;
@@ -76,7 +76,7 @@
   --colorMobileText: #DDD;
 }
 
-.night {
+.theme-night {
   --colorBackground: #080808;
   --colorBackgroundPrimary: #CE5374;
   --colorBackgroundPrimary02: #9F2D4C;
@@ -92,7 +92,7 @@
   --colorMobileText: #DDD;
 }
 
-.konami {
+.theme-konami {
   --colorBackground: #0A0039;
   --colorBackgroundPrimary: #FC4F5E;
   --colorBackgroundPrimary02: #DB2C3B;

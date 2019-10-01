@@ -56,29 +56,29 @@
     content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.thumbnail | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
   <script src="/js/jquery.js"></script>
-  <script src="/js/js.cookie.min.js"></script>
+
 
   <script type="text/javascript">
-    if (Cookies.get("theme") == "night") {
-      $('html').addClass('night');
+    if (localStorage.getItem("theme") == "theme-night") {
+      $('html').addClass('theme-night');
       $(document).ready(function () {
-        $("#toggle-night svg").addClass("text-primary-01");
+        $('#toggle-night svg').addClass('text-primary-01');
       });
-      console.log("theme == night");
-    } else if (Cookies.get("theme") == "day") {
-      $("html").addClass("day");
+      console.log("theme == theme-night");
+    } else if (localStorage.getItem("theme") == "theme-day") {
+      $('html').addClass('theme-day');
       $(document).ready(function () {
-        $("#toggle-day svg").addClass("text-primary-01");
+        $('#toggle-day svg').addClass('text-primary-01');
       });
-      console.log("theme == day");
-    } else if (Cookies.get("theme") == "konami") {
-      $("html").addClass("konami");
-      $("html").addClass("font-mono");
-      console.log("theme == konami");
-    } else if (Cookies.get("theme") == null) {
-      $('html').addClass('night');
+      console.log("theme == theme-day");
+    } else if (localStorage.getItem("theme") == "theme-konami") {
+      $('html').addClass('theme-konami');
+      $('html').addClass('font-mono');
+      console.log("theme == theme-konami");
+    } else if (localStorage.getItem("theme") == null) {
+      $('html').addClass('theme-night');
       $(function () {
-        $("#toggle-night svg").addClass("text-primary-01");
+        $('#toggle-night svg').addClass('text-primary-01');
       });
       console.log("theme == undefined");
     }
