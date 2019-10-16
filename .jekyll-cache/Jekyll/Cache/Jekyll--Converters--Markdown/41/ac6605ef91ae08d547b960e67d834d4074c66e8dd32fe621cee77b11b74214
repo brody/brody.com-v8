@@ -1,0 +1,624 @@
+I"eJ<p><a href="https://www.vividsydney.com/">Vivid Sydney</a> is an annual festival of light, music and ideas, held in Sydney. It includes outdoor immersive light installations and projections, performances by local and international musicians, and an ideas exchange forum featuring public talks and debates with leading creative thinkers.</p>
+
+<p>Now in its 10th year, Vivid Sydney has become the <mark>world’s largest festival of light, music and ideas</mark>, putting the famous harbour-side city of Sydney firmly in the spotlight for 23 electric nights.</p>
+
+<h1 id="vivid-2017-app">Vivid 2017 App</h1>
+
+<p>What could I learn from the previous years app? By reviewing the 2017 app design &amp; analytics, I could make educated decisions helping give the users what they want.</p>
+
+<h2 id="initial-thoughts">Initial Thoughts</h2>
+
+<ul>
+  <li>List view
+    <ul>
+      <li>Only 1.5 cards visible at a time</li>
+    </ul>
+  </li>
+  <li>Map view
+    <ul>
+      <li>overwhelming with no way to filter</li>
+      <li>hidden under Guide, in the 2nd position</li>
+    </ul>
+  </li>
+  <li>Alerts 2nd tab from the left but rarely used</li>
+  <li>Explore &amp; Guide have similar content, displayed in different ways</li>
+  <li>Speakers was a list of 502 that scrolled forever</li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+
+<p>The previous year’s app was very disjointed and unintuitive. Having visited Vivid before &amp; supported by the data, the Map view was the go-to to see what’s around you.</p>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/2017/01.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/2017/02.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/2017/03.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/2017/04.jpg" />
+  </div>
+
+</div>
+
+<h2 id="2017-analytics">2017 Analytics</h2>
+
+<ul>
+  <li>59,304 total downloads (70% iOS, 30% Android)</li>
+  <li>185,360 sessions</li>
+  <li>399,723 items saved to My Vivid</li>
+  <li>Beacon detections - when a device detects a beacon (not unique by device, just the total number): 180,487</li>
+  <li>10,088 events added to device’s calendar</li>
+</ul>
+
+<h2 id="top-5-visited-screens">Top 5 visited screens:</h2>
+
+<ol>
+  <li>Light events</li>
+  <li><mark>Audio Tours</mark></li>
+  <li><mark>Map</mark></li>
+  <li>Menu</li>
+  <li><mark>My Vivid</mark></li>
+</ol>
+
+<h2 id="learnings">Learnings</h2>
+
+<ul>
+  <li>Light events section was <mark>most visited screen</mark>, which makes sense as it was the home screen</li>
+  <li>Audio Tours was surprisingly the 2nd most viewed screen
+    <ul>
+      <li>This helped put more focus on what could have been as lower priority</li>
+    </ul>
+  </li>
+  <li>Map, even though hidden in the app, was a preferred view than lists for users</li>
+  <li>Customising their experience, by saving events to My Vivid was well received and the 5th most visited screen</li>
+</ul>
+
+<p><br /></p>
+
+<h1 id="objectives">Objectives</h1>
+
+<h2 id="business">Business</h2>
+
+<ul>
+  <li>Vivid/Destination NSW wants to push attendance (therefore ticket sales) of Music and Ideas events</li>
+  <li>Wanted more users to register/log in for the user data and for the email database for email marketing</li>
+  <li>Understood the 2017 app was confusing for the user and embraced the idea of simplifying the app</li>
+  <li>Adding augmented reality &amp; gamification features to the app</li>
+  <li>Needs to control flow of traffic on congested areas
+    <ul>
+      <li>Audio Tours help with flow and direction</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="user">User</h2>
+
+<ul>
+  <li>MyVivid is a great way to save events that interest you</li>
+  <li>With so many events, optimising, simplifying &amp; customising the app helps the user find what they want</li>
+  <li>Getting to and around Vivid is the initial priority
+    <ul>
+      <li>Info on road closures, parking, public transport</li>
+      <li>Map of events around you, on the date you are there/plan to attend (filter by date)</li>
+    </ul>
+  </li>
+  <li>Wants more information on pieces
+    <ul>
+      <li>Audio Tour let the user listen to the information</li>
+      <li><a href="http://i.brody.com/q8eK" target="blank">Lightboxes</a> are hard to read with a number people surrounding them</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h1 id="research">Research</h1>
+
+<p>There’s no reason to reinvent the wheel…
+What can I learn from other apps of similar complexity?</p>
+
+<h2 id="universal-theme-parks">Universal Theme Parks</h2>
+
+<ul>
+  <li>Togglable categories</li>
+  <li>List view toggle</li>
+  <li>Filter</li>
+  <li>Large, favouritable cards</li>
+  <li>Side nav with all options 1 touch away</li>
+  <li>Map is front and center</li>
+</ul>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/01a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/01b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/01c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/01d.jpg" />
+  </div>
+
+</div>
+
+<h2 id="airbnb">AirBnB</h2>
+
+<ul>
+  <li>Filters</li>
+  <li>2 column list view</li>
+  <li>Categories shown in a scrolling list</li>
+  <li>Even through a complex app, they’ve stuck to a 5 tab nav at the bottom</li>
+</ul>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/02a.jpg" />
+  </div>
+
+  <div class="w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/02b.jpg" />
+  </div>
+
+</div>
+
+<h2 id="meetup">Meetup</h2>
+
+<ul>
+  <li>Scheduled based suggestions</li>
+  <li>Saved meetups</li>
+  <li>Category list</li>
+  <li>Social proof of attendees</li>
+  <li>Filters</li>
+  <li>Call to action</li>
+  <li>Recommended</li>
+  <li>Tabs</li>
+</ul>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/03a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/03b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/03c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/03d.jpg" />
+  </div>
+
+</div>
+
+<h2 id="kickstarter">Kickstarter</h2>
+
+<ul>
+  <li>Scrollable segmented control</li>
+  <li>Dropdown of Categories &amp; Collections</li>
+  <li>Count of content</li>
+  <li>Simple clean layout</li>
+</ul>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/04a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/04b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/04c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/04d.jpg" />
+  </div>
+
+</div>
+
+<h2 id="netflix">Netflix</h2>
+
+<ul>
+  <li>More more for overflow of less needed items</li>
+  <li>Notification list</li>
+  <li>Profile log in / log out</li>
+  <li>Featured content</li>
+  <li>Secondary calls to action</li>
+  <li>Horizontally scrolling list</li>
+</ul>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/3 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/05a.jpg" />
+  </div>
+
+  <div class="w-1/3 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/05b.jpg" />
+  </div>
+
+  <div class="w-1/3 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/research/05c.jpg" />
+  </div>
+
+
+</div>
+
+<p><br /></p>
+
+<h1 id="information-architecture">Information Architecture</h1>
+
+<h2 id="2017">2017</h2>
+
+<div class="">
+
+  <div class="w-3/4">
+  <img data-action="zoom" src="/image/work/vivid/ia/01.jpg" />
+  </div>
+
+</div>
+
+<h2 id="2018-ideation">2018 Ideation</h2>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-full md:w-1/3 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/ia/02a.jpg" />
+  </div>
+
+  <div class="w-full md:w-1/3 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/ia/02b.jpg" />
+  </div>
+
+  <div class="w-full md:w-1/3 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/ia/02c.jpg" />
+  </div>
+
+</div>
+
+<h2 id="notes-">Notes 🤔</h2>
+
+<p>A few iterative loops of IA mapping, combined with wireframes, helped validate (and invalidate) a lot of ideas, helping me rearranging the pieces made the app and content more digestible.</p>
+
+<p><br /></p>
+
+<h1 id="kickoff-workshop-with-destination-nsw">Kickoff Workshop with Destination NSW</h1>
+
+<p>I ran a workshop with the stakeholders from Destination NSW to present my research, Information Architecture &amp; wireframe explorations.</p>
+
+<p>Early in the workshop, I ran a <a href="http://www.designkit.org/methods/24" target="blank">card sorting exercise</a> to get the stakeholders to agree upon and discuss priorities, getting everyone on the same page.</p>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/dnsw/01.jpg" />
+  </div>
+
+  <div class="w-1/2 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/dnsw/02.jpg" />
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h1 id="wireframes">Wireframes</h1>
+
+<h2 id="exploration">Exploration</h2>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/01a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/01b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/01c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/02a.jpg" />
+  </div>
+
+</div>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/02b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/03a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/03b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/03c.jpg" />
+  </div>
+
+</div>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/04a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/04b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05b.jpg" />
+  </div>
+
+</div>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05d.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05e.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05f.jpg" />
+  </div>
+
+</div>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05g.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05h.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/05i.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <!-- <img data-action="zoom" src="/image/work/vivid/wireframes/05f.jpg"> -->
+  </div>
+
+</div>
+
+<h2 id="after-a-long-exploration-of-sidebar-navs-and-all-sorts-of-options-i-saw-lukews-tweet">After a long exploration of sidebar navs and all sorts of options, I saw <a href="https://twitter.com/lukew">@Lukew</a>’s tweet…</h2>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Netflix moves to a bottom nav bar on Android (&amp; iOS).<br /><br />Why? Obvious always wins: <a href="https://t.co/coJ7Ge55It">https://t.co/coJ7Ge55It</a> <a href="https://t.co/iEtnPEeETE">pic.twitter.com/iEtnPEeETE</a></p>&mdash; Luke Wroblewski (@lukew) <a href="https://twitter.com/lukew/status/968240144296787969?ref_src=twsrc%5Etfw">February 26, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="-which-make-me-simplify-the-nav-and-layout-even-further-with-a-focus-of-the-navigation-being-obvious">… which make me simplify the nav and layout even further, with a focus of the navigation being <strong><mark>obvious</mark></strong>.</h2>
+
+<p>Everything clicked with the content and the client once I iterated to this structure.</p>
+
+<h1 id="not-quite-final-wireframes">(Not quite) Final Wireframes</h1>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/07a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/07b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/07c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/07d.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/07e.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/07f.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/08a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/08b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/08c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/08d.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/08e.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/wireframes/08f.jpg" />
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h1 id="final-basic-flow-wireframes--information-architecture">Final Basic Flow Wireframes &amp; Information Architecture</h1>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-full px-2 py-1">
+  <img data-action="zoom" class="mv2 mw-none" src="/image/work/vivid/flow/01a.jpg" />
+  </div>
+
+  <div class="w-full px-2 py-1">
+  <img data-action="zoom" class="mv2 mw-none" src="/image/work/vivid/ia/03a.jpg" />
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h1 id="side-note">Side note</h1>
+
+<p>Throughout the process, i’ve bounced ideas of the entire team, validating and invalidating ideas. One of which you’ll see, is the filter button being pulled from inline with the map and list view tabs. A developer mentioned filters being different from the other 2 so it made sense to show it in a different way. After a couple of different ideas, I landed back to how the filter button was shown last year.</p>
+
+<p><br /></p>
+
+<h1 id="mockups">Mockups</h1>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/00c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/00a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/00b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01d.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01e.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01f.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01g.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/01h.jpg" />
+  </div>
+
+</div>
+
+<p><br /></p>
+
+<h1 id="bonus-">Bonus 🎁</h1>
+
+<h2 id="icon-design">Icon Design</h2>
+
+<p>With the refined design, I tried a few different options, while retaining the low poly geometric branding.</p>
+
+<ol>
+  <li>2017 Icon</li>
+  <li>2018: Option 1</li>
+  <li>2018: Option 2 – Chosen by Destination NSW</li>
+  <li>2018: Option 3</li>
+</ol>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/mockups/03.jpg" />
+  </div>
+
+</div>
+
+<h2 id="chatbot-onboarding">Chatbot Onboarding</h2>
+
+<p>During the wireframing stage, I explored the option of a chatbot to walk you through sign up/in &amp; personalisation steps. Due to time constraints we opted for a simpler flow.</p>
+
+<div class="flex flex-wrap -mx-2">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/chatbot/01a.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/chatbot/01b.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/chatbot/01c.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/chatbot/01d.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/chatbot/01e.jpg" />
+  </div>
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+  <img data-action="zoom" src="/image/work/vivid/chatbot/01f.jpg" />
+  </div>
+
+</div>
+:ET

@@ -1,0 +1,16 @@
+I"�<h2 id="update--march-2019"><mark>Update – March 2019</mark></h2>
+
+<p>Night/Dark mode is the default theme as it’s my prefered theme. A theme toggle is now in the menu on mobile or top left of the screen on desktop. 🌑</p>
+
+<h2 id="update--july-2018"><mark class="line-through">Update – July 2018</mark></h2>
+
+<p>There is now a Nightmode toggle in the right hand menu. Click on the moon icon to check it out.</p>
+
+<hr />
+
+<p>As a fun weekend project, I implemented a <em>Nightmode</em> that kicks in between 6:00pm &amp; 8:00am.</p>
+
+<p>Want to check it out before 6pm? Add <code class="highlighter-rouge">class: "night"</code> to the body tag in the DOM.</p>
+
+<p><a href="https://dribbble.com/shots/3453321-Night-Mode-Brody-com">Dribbble shot</a></p>
+:ET

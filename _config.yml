@@ -6,8 +6,8 @@ description: Product Design Lead from Sydney, Australia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://brody.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brodymaclean
-github_username:  brody
-dribbble_username:  brodymaclean
+github_username: brody
+dribbble_username: brodymaclean
 
 # Build settings
 timezone: Australia/Sydney
@@ -18,8 +18,16 @@ permalink: /:title/
 highlighter: rouge
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - gulpfile.babel.js
   - LICENSE.md
   - node_modules
@@ -28,4 +36,3 @@ exclude:
   - README.md
   - src
   - tailwind.config.js
-

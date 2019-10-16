@@ -1,0 +1,484 @@
+I"+R<p>After having heard this course recommended for so long, I finally started it.</p>
+
+<p>“Learning How to Learn” provides practical advice on tackling daunting subjects and on beating procrastination, and the lessons engagingly blend neuroscience and common sense.</p>
+
+<p>The course has been taken by more than 1.8 million students from 200 countries, the most ever on Coursera.</p>
+
+<p>This is a collection of notes updated as I progress.</p>
+
+<hr />
+
+<h1 id="week-1-what-is-learning">Week 1: What is Learning?</h1>
+
+<h2 id="brain-facts">Brain Facts:</h2>
+
+<ul>
+  <li>Cells of the nervous system are called neurons. Information from one neuron flows to another neuron across a synapse. Human brain has a million billion synapses.</li>
+  <li>Your brain creates synapses whenever you learn something new. Sleeping helps “update” your brain cells. Literally.</li>
+</ul>
+
+<h2 id="why-do-we-procrastinate-scientifically">Why do we procrastinate (scientifically):</h2>
+
+<h3 id="problem">Problem:</h3>
+
+<p>Learning a new thing or doing something you would rather not do can be stressing. This can cause anxiety at first. This activates the area associated with pain in the brain.</p>
+
+<p>Your brain looks for a way to stop that negative feeling by switching your attention to something else more pleasant.</p>
+
+<h3 id="solution">Solution:</h3>
+
+<p>The trick is to just start. Researchers discovered that not long after people start actually working out what they didn’t like, that neuro-discomfort disappeared.</p>
+
+<p>Remember that the better you get at something, the more enjoyable it can become.</p>
+
+<p>Consider using the pomodoro technique.</p>
+
+<h2 id="learning-hard-and-abstract-things">Learning hard and abstract things:</h2>
+
+<p>The more abstract something is, the more important it is to practice to create and strengthen neural connections to bring the abstract ideas to reality for you.</p>
+
+<p><strong>Ex:</strong> You should practice a lot with the math vocabulary to understand it and recall it easier. <code class="highlighter-rouge">[∫∞ex dx, k!(n-k)!]</code></p>
+
+<h2 id="summary-of-what-i-learnt">Summary of what I learnt:</h2>
+
+<ol>
+  <li>
+    <p>There are two modes of thinking:</p>
+
+    <ol>
+      <li>
+        <p><strong>Focused mode:</strong> Concentrating on things that are usually familiar.</p>
+      </li>
+      <li>
+        <p><strong>Diffused mode:</strong> A relaxed mode of thinking “your thoughts are free to wander”.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>When you don’t desire doing/learning something, go through it and just start. The discomfort goes away and, in the long term, this will lead to satisfaction.</p>
+  </li>
+  <li>
+    <p>When you learn something new, make sure to take time to rest, then come back to it and recall what you learnt.</p>
+
+    <ul>
+      <li>
+        <p>This is very important. Don’t cram information in one day. This leads to inefficient learning. It’s like building a wall without letting it dry.</p>
+      </li>
+      <li>
+        <p>Revisiting and practicing what you learn is important. Research shows that spaced repetition(repeating things after few days) is the best way to build and strengthen the synaptic connections.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Sleep is very important. It clears the metabolic toxins from the brain after a day of “brain use”. It is best to sleep directly after learning new things.</p>
+  </li>
+  <li>
+    <p>It was shown that exercising and/or being in a rich social environment helps your brain produce new neurons. Don’t lock yourself in your room. Stay active and spare time for exercise (including general physical activities) and friends daily.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h1 id="week-2-chunking">Week 2: Chunking</h1>
+
+<h2 id="chunks">Chunks:</h2>
+
+<p>Pieces of information, neuroscientifically speaking, bond together through use and meaning. They can get bigger and more complex, but at the same time, they are single easy to access items that can fit into the slot of the working memory.</p>
+
+<blockquote>
+  <p><strong>Chunking</strong> is the act of grouping concepts into compact packages of information that are easier for the mind to access.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Example:</strong> If you understand and practice a math formula. You no longer will need to focus much to solve it like you did the first time. That’s because your “formula chunk” got so abstracted into your brain that it can only take one slot of your working memory to solve it.</li>
+</ul>
+
+<h2 id="turn-off-distractions">Turn off distractions</h2>
+<p>You want to use all the four slots of your working memory when studying. Learning will be inefficient if some of those slots are connected to something else.</p>
+
+<h3 id="you-have-to-solve-the-problem-yourself">You have to solve the problem yourself</h3>
+<p>Just because you see it, or even understand it, doesn’t mean that you will be able to solve it (<strong>Illusion of competence</strong>). It is always easier to look at the material, even if you think it’s easy, then doing it yourself.</p>
+
+<h3 id="it-gets-easier">It gets easier</h3>
+<p>When you think that a chapter or a book has too much information and that there’s no way to go through them all; just focus on whatever section you’re studying. You’ll find that once you put that first concept in your mental library, the following one will be easier.</p>
+
+<p>This concept is called <mark>Transfer</mark>; a chunk you have mastered in one area can often help you much more easily learn other chunks of information in different areas.
+Master the major idea and then start getting deeper. However, make sure not to get stuck in some details before having a general idea. Practice to help yourself gain mastery and sense of the big picture context. Try taking a “picture walk” before you dig through the material, this means, look briefly at the pictures, chapter titles, formulas used… before diving into details.</p>
+
+<p>Recall mentally without looking at the material. This is proven more effective than to simply rereading. Reread only after you try to recall and write down what was in the material.</p>
+
+<p>Consider recalling when you are in different places to become independent of the cues from any giving location. This will help you when taking a test in the class.</p>
+
+<p>Test yourself to make sure you are actually learning and not fooling yourself into learning. Mistakes are a good thing. They allow you to catch illusions of competence.</p>
+
+<p>Don’t always trust your initial intuition. Einstellung problem (a German word for Mindset). An idea or a neural pattern you developed might prevent a new better idea from being found. Sometimes your initial intuition on what you need to be doing is misleading.You’ve to unlearn old ideas and approaches as you are learning new ones.</p>
+
+<p>Mix up the problems (Interleaving) from different chapters. This is helpful to create connections between your chunks. It can make your learning a bit more difficult, but it helps you learn more deeply. Interleaving is very important. It is where you leave the world of practice and repetition, and begin thinking more independently.</p>
+
+<h3 id="donts">Don’ts:</h3>
+
+<ul>
+  <li>
+    <p>Highlighting too much and creating maps are often ineffective without recalling.</p>
+  </li>
+  <li>
+    <p>Repeating something you already learnt or know very well is easy. It can bring the illusion of competence; that you’ve mastered the full material when you actually just know the easy stuff. Balance your studies and focus on the more difficult (deliberate practice). This sets the difference between a good student and a great student.</p>
+  </li>
+  <li>
+    <p>A big mistake is to blindly start working on an exercise without reading the textbook or attending the class. This is a recipe of sinking. It’s like randomly allowing a thought to pop off in the focus mode without paying attention to where the solution truly lies.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="week-3-procrastination-and-memory">Week 3: Procrastination and Memory</h1>
+
+<h2 id="procrastination">Procrastination:</h2>
+
+<ul>
+  <li>
+    <p>The routine, habitual responses your brain falls into when you try to do something hard or unpleasant. Focusing only on making the present moment feels better.</p>
+  </li>
+  <li>
+    <p>Unlike procrastination which is easy to fall into, Willpower is hard to come by. It uses a lot of neural resources and you shouldn’t waste it on fending off procrastination except when really necessary. You actually don’t need to.</p>
+  </li>
+  <li>
+    <p>The long-term effect of Procrastination can be dangerous. Putting your studies off leads to studying becoming even more painful. Procrastination is a habit that affects many areas of your life, if you improve in this area, many positive changes will unfold.</p>
+  </li>
+  <li>
+    <p>Procrastination shares features with addiction. At first, it leads you to think that if you study too early you’ll forget the material. Then, when the class is ahead of you, it leads you to think that you are inadequate or that the subject is too hard.</p>
+  </li>
+  <li>
+    <p>You want to avoid cramming which doesn’t build solid neural structures, by putting the same amount into your learning, and spacing it over a long period by starting earlier.</p>
+  </li>
+</ul>
+
+<h2 id="first-time-learning-something">First time learning something:</h2>
+
+<ul>
+  <li>
+    <p>The first time you do something the deluge of information coming at you would make the job seem almost impossibly difficult. But, once you’ve chunked it, it will be simple.</p>
+  </li>
+  <li>
+    <p>At first, it’s really hard, later it’s easy. It becomes like a habit. <strong>Example:</strong> Driving for the first time.</p>
+  </li>
+</ul>
+
+<h2 id="habits">Habits:</h2>
+
+<ul>
+  <li>
+    <p>Neuro-scientifically speaking, chunking is related to habit.</p>
+  </li>
+  <li>
+    <p>Habit is an energy saver. You don’t need to focus when performing different habitual tasks.</p>
+  </li>
+  <li>
+    <p>Habits can be good or bad, brief or long.</p>
+  </li>
+</ul>
+
+<h2 id="habits-parts">Habits Parts:</h2>
+
+<ol>
+  <li>
+    <p><strong>The cue:</strong> The trigger that launches you into zombie mode (habitual routine).</p>
+
+    <ol>
+      <li>
+        <p>Recognize what launches you in zombie procrastination mode:</p>
+
+        <p>i. Location. Time. Feelings. Reaction to people or events…</p>
+      </li>
+      <li>
+        <p>Consider shutting your phone/internet for brief periods of time to prevent most cues.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>The routine:</strong> Routine you do in reaction to the cue.</p>
+
+    <ol>
+      <li>
+        <p>You only need to use your willpower to change your reaction to the cues.</p>
+      </li>
+      <li>
+        <p>Actively focus on rewiring your old habits.</p>
+      </li>
+      <li>
+        <p>You need a plan. You need some willpower.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>The reward:</strong> Habits exist because they reward us.</p>
+
+    <ol>
+      <li>
+        <p>Give yourself bigger rewards for bigger achievements. But after you finish them.</p>
+      </li>
+      <li>
+        <p><strong>Example:</strong> If I study for 4 hours today, I’ll watch a movie, guilt free, at night.</p>
+      </li>
+      <li>
+        <p>Habits are powerful because they create neurological cravings. It helps to add a new reward if you want to overcome your previous cravings.</p>
+      </li>
+      <li>
+        <p>Only once your brain starts expecting a reward will the important rewiring takes place that will allow you to create new habits.</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>The belief:</strong> To change your habits, you need to change your underlying belief.</p>
+
+    <ol>
+      <li>
+        <p><strong>Example:</strong> You might feel like you’ll never be able to change the habit of studying late. This is not true. You can actually rewire your brain</p>
+      </li>
+      <li>
+        <p>Joining a student community helps, either online or in real life.</p>
+      </li>
+      <li>
+        <p>Trust your system. You have to feel happy and worry-free when you are resting.</p>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="weeklydaily-list">Weekly/Daily list:</h2>
+
+<ul>
+  <li>
+    <p>Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don’t write them down, they will take the valuable slots of memory.</p>
+  </li>
+  <li>
+    <p>Plan your finishing time, this is as important as planning your working time.</p>
+  </li>
+  <li>
+    <p>Work in the most important and most disliked task first, even if it’s only one pomodoro.</p>
+  </li>
+  <li>
+    <p>Take notes about what works and what doesn’t.</p>
+  </li>
+  <li>
+    <p>Have a backup plan for when you will still procrastinate.</p>
+  </li>
+</ul>
+
+<h2 id="focus-on-process">Focus on Process:</h2>
+
+<p>You should realize that it’s perfectly normal to start a learning session with a negative feeling even if you like the subject. It’s how you handle those feelings that matters.</p>
+
+<p>Solution: Focus on the process, not the product. The product is what triggers the pain that causes you to procrastinate. Instead of saying “I will solve this task today”, put your best effort for a period of time continuously over the days</p>
+
+<h2 id="memory">Memory:</h2>
+
+<ul>
+  <li>
+    <p>Use your visual memory to remember things.</p>
+
+    <ul>
+      <li>Example: Link a memorable picture to a formula.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Images help you encapsulate a very hard to remember concept by tapping into visual areas with enhanced memory abilities.</p>
+  </li>
+  <li>
+    <p>The more neural hooks you can build by evoking the senses the easier it will be for you to recall the concept.</p>
+  </li>
+  <li>
+    <p>Keep repeating what you want to learn so that the metabolic toxins won’t suck away the neural patterns related to that memory. <mark>Spaced repetition</mark> is the key.</p>
+  </li>
+  <li>
+    <p>Flashcards help. Consider using Anki.</p>
+  </li>
+  <li>
+    <p>Handwriting helps you deeply convert what you are trying to learn into neural memory structures.<br />
+Memory Techniques:</p>
+  </li>
+  <li>
+    <p>Create meaningful groups and abbreviations.</p>
+  </li>
+  <li>
+    <p>To remember numbers, associate them to memorable events.</p>
+  </li>
+  <li>
+    <p>Create mnemonic phrases from first letters of the words you want to remember.</p>
+  </li>
+  <li>
+    <p>Memory Palace Technique: Use a familiar place (like the blueprint of your house) and associate visual images of things you want to remember with physical places.</p>
+
+    <ul>
+      <li>
+        <p>This is not easy. You’ll be very slow at first. But with practice, you’ll get better.</p>
+      </li>
+      <li>
+        <p>The more you practice your “memory muscle” the easier you’ll remember.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="week-4-renaissance-learning-and-unlocking-your-potential">Week 4: Renaissance Learning and Unlocking Your Potential</h1>
+
+<h2 id="you-should-know">You should know:</h2>
+
+<ul>
+  <li>
+    <p>Exercising is by far more effective than any drug to help you learn better. It helps new neurons survive.</p>
+  </li>
+  <li>
+    <p>Learning doesn’t always progress linearly and logically. Inevitably your brain will hit a knowledge-collapse sometimes. This usually means your brain is restructuring its understanding, building a more solid foundation.</p>
+  </li>
+  <li>
+    <p>You learn complex concepts by trying to make sense out of the information you perceive. Not by having someone else telling it to you.</p>
+  </li>
+</ul>
+
+<h2 id="metaphors">Metaphors</h2>
+
+<ul>
+  <li>
+    <p>Metaphors and analogies are very helpful, not only to memorize, but to also understand different concepts.</p>
+  </li>
+  <li>
+    <p>It is often helpful to pretend that you are the concept you’re trying to understand.</p>
+  </li>
+</ul>
+
+<h2 id="intelligence">Intelligence:</h2>
+
+<ul>
+  <li>
+    <p>Intelligence does matter. Being smart usually equate to having a large working memory (more than just four slots).</p>
+  </li>
+  <li>
+    <p>However, a super working memory can hold its thoughts so tightly that new thoughts won’t easily find a way into the brain. Such a tightly controlled attention could use an occasional breath of ADHD. You attention shifts even if you don’t want it to shift.</p>
+  </li>
+  <li>
+    <p>Deliberate practice is what helps the average brain lift into the realm of those naturally gifted. Practicing certain mental patterns deepens your mind.</p>
+  </li>
+  <li>
+    <p>Brilliant scientist like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.</p>
+  </li>
+  <li>
+    <p>Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.</p>
+  </li>
+</ul>
+
+<h2 id="right-hemisphere">Right hemisphere:</h2>
+
+<ul>
+  <li>
+    <p>Helps us put our work into the big picture perspective and does reality checks.</p>
+  </li>
+  <li>
+    <p>When you go through a homework or test questions and don’t go back to check your work, you’re acting like a person who’s refusing to use parts of his brain.</p>
+  </li>
+</ul>
+
+<h2 id="left-hemisphere">Left hemisphere:</h2>
+
+<ul>
+  <li>
+    <p>Interprets the world for us but with a tendency for rigidity, dogmatism and egocentricity.</p>
+  </li>
+  <li>
+    <p>May lead to overconfidence. Example: believing dismissively that your answers are corrects.</p>
+  </li>
+</ul>
+
+<h2 id="best-practices">Best practices:</h2>
+
+<ul>
+  <li>
+    <p>Always step back and recheck to takes advantages of abilities of both-hemispheres interactions.</p>
+  </li>
+  <li>
+    <p>Brainstorm and find focused people to analyze your work with.</p>
+
+    <ul>
+      <li>
+        <p>Your errors are sometimes easier to be found by others.</p>
+      </li>
+      <li>
+        <p>Explaining yourself to others helps you understand more.</p>
+      </li>
+      <li>
+        <p>Studying in a team helps you catch what you missed, or what you can’t see.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Don’t fool yourself. Don’t blindly believe in your intellectual abilities. Having a team can bring those projections down.</p>
+  </li>
+</ul>
+
+<h2 id="test-checklist">Test Checklist:</h2>
+
+<ul>
+  <li>
+    <p>Did you make a serious effort to understand the text? If you had a study guide, did you go through it?</p>
+  </li>
+  <li>
+    <p>Did you attempt to outline every homework problem solution?</p>
+  </li>
+  <li>
+    <p>Did you understand all your homework problems’ solutions? If not, did you ask for explanations?</p>
+  </li>
+  <li>
+    <p>Did you work with classmates on homework problems? checked your solutions?</p>
+  </li>
+  <li>
+    <p>Did you consult your instructor/teacher when you had a problem with something?</p>
+  </li>
+  <li>
+    <p>Did you sleep well the night before the test?</p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="test-taking-technique">Test Taking Technique:</h1>
+
+<h2 id="hard-start---jump-to-easytry-this-strategy-with-homework-problems-first">Hard Start - Jump to easy: (Try this strategy with homework problems first)</h2>
+
+<ol>
+  <li>
+    <p>Take a quick look at the test when it’s handed to you to get a sense of what it involves.</p>
+  </li>
+  <li>
+    <p>Start with the hardest problem. Pull yourself out if you get stuck for over 2 minutes. <em>Starting with a hard problem loads your focused mode first and then switches attention away from it. This allows the diffused mode to start its work.</em></p>
+  </li>
+  <li>
+    <p>Turn next to an easy problem. Solves what you can, then move back to a hard one. <em>This allows the different part of your brain to work simultaneously on different thoughts.</em></p>
+  </li>
+</ol>
+
+<h2 id="taking-test-tips">Taking Test Tips:</h2>
+
+<ul>
+  <li>
+    <p>Being Stressed before a test is normal. The body puts ups out chemicals when it’s under stress. How you interpret the body reaction to those chemicals makes all the difference.</p>
+
+    <ul>
+      <li>Shift your thinking from “I am afraid of this test” to “I am excited to do my best”.</li>
+    </ul>
+  </li>
+  <li>
+    <p>If you are stressed during a test, turn your attention to breathing. Relax, put your hand on your stomach and slowly draw some deep breaths. This will calm you down.</p>
+  </li>
+  <li>
+    <p>Relax your brain on the last day before a test. Have a quick final look at the materials. Feeling guilty the last day is a natural reaction even if you prepared well. So relax.</p>
+  </li>
+  <li>
+    <p>Good worry motivates you. Bad worry wastes your energy.</p>
+  </li>
+  <li>
+    <p>Double check your answers. Look away, shift your attention, and then recheck.</p>
+  </li>
+</ul>
+:ET

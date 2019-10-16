@@ -1,0 +1,44 @@
+I"�<div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
+  <img data-action="zoom" src="/image/post/meeting-warm-up/feature.png" alt="Meeting warm up" />
+</div>
+
+<p>Recently, I’ve been running a game of Pictionary, before our designer catch-up meetings, to break the ice and get the creative juices flowing.</p>
+
+<p>You only need a few things to run one yourself, with both local and remote team members alike.</p>
+
+<h1 id="ingredients">Ingredients</h1>
+
+<ul>
+  <li>Whiteboard app — <a href="https://www.invisionapp.com/feature/freehand" target="_blank">Invision Freehand</a>, there are plenty of other options like <a href="https://realtimeboard.com/" target="_blank">Miro</a>, <a href="https://witeboard.com" target="_blank">Witeboard</a></li>
+  <li>Words/Phrases — <a href="https://peachytools.com/pictionary-generator" target="_blank">Pictionary Generator</a></li>
+  <li>Timer — <a href="https://github.com/michaelvillar/timer-app" target="_blank">Timer app</a></li>
+  <li>Screen Sharing — <a href="https://appear.in/" target="_blank">Appear.in</a>, <a href="https://meet.google.com/" target="_blank">Google Meet</a>, or <a href="https://zoom.us/" target="_blank">Zoom</a></li>
+</ul>
+
+<h2 id="nice-to-have">Nice to have</h2>
+<ul>
+  <li>iPad with Apple Pencil &amp; corresponding Whiteboard app</li>
+</ul>
+
+<h1 id="recipe">Recipe</h1>
+<ol>
+  <li>Pick team members of 2 at random.</li>
+  <li>Share &amp; display the whiteboard using the screen sharing/meeting app.</li>
+  <li>Get team member ready, with canvas centered.</li>
+  <li>Hit Generate on the whiteboard generator &amp; privately show drawer the word/phrase.</li>
+  <li>Start the 1-minute timer.</li>
+  <li>Record the time remaining, when guesser correctly guesses. This is their score.</li>
+  <li>Repeat for each team of 2.</li>
+  <li>Highest score wins. 🏆</li>
+</ol>
+
+<p>Enjoy! 👍</p>
+
+<div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
+  <img data-action="zoom" src="/image/post/meeting-warm-up/sketches.png" alt="Sketches" />
+</div>
+
+<div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
+  <img data-action="zoom" src="/image/post/meeting-warm-up/sketches2.png" alt="Sketches" />
+</div>
+:ET
