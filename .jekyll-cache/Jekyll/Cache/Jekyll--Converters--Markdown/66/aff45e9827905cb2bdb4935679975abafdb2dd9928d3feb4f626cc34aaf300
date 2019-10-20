@@ -1,4 +1,4 @@
-I"ê<p>In the later stages of the interview process with Hudl, I was tasked to complete a design challenge.</p>
+I"ë<p>In the later stages of the interview process with Hudl, I was tasked to complete a design challenge.</p>
 
 <h1 id="the-challenge">The Challenge</h1>
 
@@ -25,7 +25,7 @@
 <p>Check out the link below with the documentation of the solution I came to. ðŸ‘‡</p>
 
 <div class="link-card">
-  <a href="/hudl" class="border rounded p-4 md:p-5 my-6 lg:my-12 button shadow-none max-w-md flex flex-wrap" target="_blank">
+  <a href="/hudl" class="border rounded p-4 md:p-5 my-6 lg:my-12 button shadow-none max-w-2xl flex flex-wrap" target="_blank">
     <h4 class="text-04 text-base leading-tight w-full uppercase font-semibold mb-0 lg:mb-0 glitch" data-text="Source:">Link:</h4>
     <span class="mt-2 mb-3 text-lg lg:text-xl w-full">Hudl Design Challenge</span>
     <button class="ic_external fill-current rounded text-white bg-primary py-1 pl-2 pr-3 flex items-center">

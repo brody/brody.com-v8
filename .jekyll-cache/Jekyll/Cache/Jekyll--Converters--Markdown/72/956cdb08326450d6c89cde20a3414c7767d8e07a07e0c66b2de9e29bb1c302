@@ -1,4 +1,4 @@
-I"�<div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
+I"�<div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
   <img data-action="zoom" src="/image/post/meeting-warm-up/feature.png" alt="Meeting warm up" />
 </div>
 
@@ -9,18 +9,20 @@
 <h1 id="ingredients">Ingredients</h1>
 
 <ul>
-  <li>Whiteboard app — <a href="https://www.invisionapp.com/feature/freehand" target="_blank">Invision Freehand</a>, there are plenty of other options like <a href="https://realtimeboard.com/" target="_blank">Miro</a>, <a href="https://witeboard.com" target="_blank">Witeboard</a></li>
-  <li>Words/Phrases — <a href="https://peachytools.com/pictionary-generator" target="_blank">Pictionary Generator</a></li>
-  <li>Timer — <a href="https://github.com/michaelvillar/timer-app" target="_blank">Timer app</a></li>
-  <li>Screen Sharing — <a href="https://appear.in/" target="_blank">Appear.in</a>, <a href="https://meet.google.com/" target="_blank">Google Meet</a>, or <a href="https://zoom.us/" target="_blank">Zoom</a></li>
+  <li>Whiteboard app — <a href="https://www.invisionapp.com/feature/freehand" target="\_blank">Invision Freehand</a>, there are plenty of other options like <a href="https://realtimeboard.com/" target="\_blank">Miro</a>, <a href="https://witeboard.com" target="\_blank">Witeboard</a></li>
+  <li>Words/Phrases — <a href="https://peachytools.com/pictionary-generator" target="\_blank">Pictionary Generator</a></li>
+  <li>Timer — <a href="https://github.com/michaelvillar/timer-app" target="\_blank">Timer app</a></li>
+  <li>Screen Sharing — <a href="https://appear.in/" target="\_blank">Appear.in</a>, <a href="https://meet.google.com/" target="\_blank">Google Meet</a>, or <a href="https://zoom.us/" target="\_blank">Zoom</a></li>
 </ul>
 
 <h2 id="nice-to-have">Nice to have</h2>
+
 <ul>
   <li>iPad with Apple Pencil &amp; corresponding Whiteboard app</li>
 </ul>
 
 <h1 id="recipe">Recipe</h1>
+
 <ol>
   <li>Pick team members of 2 at random.</li>
   <li>Share &amp; display the whiteboard using the screen sharing/meeting app.</li>

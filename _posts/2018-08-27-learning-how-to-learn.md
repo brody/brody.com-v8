@@ -22,7 +22,6 @@ book-url: https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B
 book-url-label: amazon.com
 book-cover: /image/book/a-mind-for-numbers.jpg
 book-rating:
-
 ---
 
 After having heard this course recommended for so long, I finally started it.
@@ -62,29 +61,29 @@ Consider using the pomodoro technique.
 
 The more abstract something is, the more important it is to practice to create and strengthen neural connections to bring the abstract ideas to reality for you.
 
-**Ex:** You should practice a lot with the math vocabulary to understand it and recall it easier. `[∫∞ex dx, k!(n-k)!]`
+**Ex:** You should practice a lot with the math vocabulary to understand it and recall it easier. `[∫∞ex dx, k!(n-k)!]`
 
 ## Summary of what I learnt:
 
 1. There are two modes of thinking:
 
-    1. **Focused mode:** Concentrating on things that are usually familiar.
+   1. **Focused mode:** Concentrating on things that are usually familiar.
 
-    2. **Diffused mode:** A relaxed mode of thinking "your thoughts are free to wander".
+   2. **Diffused mode:** A relaxed mode of thinking "your thoughts are free to wander".
 
 2. When you don't desire doing/learning something, go through it and just start. The discomfort goes away and, in the long term, this will lead to satisfaction.
 
 3. When you learn something new, make sure to take time to rest, then come back to it and recall what you learnt.
 
-    - This is very important. Don't cram information in one day. This leads to inefficient learning. It's like building a wall without letting it dry.
+   - This is very important. Don't cram information in one day. This leads to inefficient learning. It's like building a wall without letting it dry.
 
-    - Revisiting and practicing what you learn is important. Research shows that spaced repetition(repeating things after few days) is the best way to build and strengthen the synaptic connections.
+   - Revisiting and practicing what you learn is important. Research shows that spaced repetition(repeating things after few days) is the best way to build and strengthen the synaptic connections.
 
 4. Sleep is very important. It clears the metabolic toxins from the brain after a day of "brain use". It is best to sleep directly after learning new things.
 
 5. It was shown that exercising and/or being in a rich social environment helps your brain produce new neurons. Don't lock yourself in your room. Stay active and spare time for exercise (including general physical activities) and friends daily.
 
------
+---
 
 # Week 2: Chunking
 
@@ -97,12 +96,15 @@ Pieces of information, neuroscientifically speaking, bond together through use a
 - **Example:** If you understand and practice a math formula. You no longer will need to focus much to solve it like you did the first time. That's because your "formula chunk" got so abstracted into your brain that it can only take one slot of your working memory to solve it.
 
 ## Turn off distractions
+
 You want to use all the four slots of your working memory when studying. Learning will be inefficient if some of those slots are connected to something else.
 
 ### You have to solve the problem yourself
+
 Just because you see it, or even understand it, doesn't mean that you will be able to solve it (**Illusion of competence**). It is always easier to look at the material, even if you think it's easy, then doing it yourself.
 
 ### It gets easier
+
 When you think that a chapter or a book has too much information and that there's no way to go through them all; just focus on whatever section you're studying. You'll find that once you put that first concept in your mental library, the following one will be easier.
 
 This concept is called <mark>Transfer</mark>; a chunk you have mastered in one area can often help you much more easily learn other chunks of information in different areas.
@@ -124,8 +126,7 @@ Mix up the problems (Interleaving) from different chapters. This is helpful to 
 
 - Repeating something you already learnt or know very well is easy. It can bring the illusion of competence; that you've mastered the full material when you actually just know the easy stuff. Balance your studies and focus on the more difficult (deliberate practice). This sets the difference between a good student and a great student.
 
--  A big mistake is to blindly start working on an exercise without reading the textbook or attending the class. This is a recipe of sinking. It's like randomly allowing a thought to pop off in the focus mode without paying attention to where the solution truly lies.
-
+- A big mistake is to blindly start working on an exercise without reading the textbook or attending the class. This is a recipe of sinking. It's like randomly allowing a thought to pop off in the focus mode without paying attention to where the solution truly lies.
 
 ---
 
@@ -147,15 +148,15 @@ Mix up the problems (Interleaving) from different chapters. This is helpful to 
 
 - The first time you do something the deluge of information coming at you would make the job seem almost impossibly difficult. But, once you've chunked it, it will be simple.
 
--   At first, it's really hard, later it's easy. It becomes like a habit. **Example:** Driving for the first time.
+- At first, it's really hard, later it's easy. It becomes like a habit. **Example:** Driving for the first time.
 
 ## Habits:
 
--   Neuro-scientifically speaking, chunking is related to habit.
+- Neuro-scientifically speaking, chunking is related to habit.
 
--   Habit is an energy saver. You don't need to focus when performing different habitual tasks.
+- Habit is an energy saver. You don't need to focus when performing different habitual tasks.
 
--   Habits can be good or bad, brief or long.
+- Habits can be good or bad, brief or long.
 
 ## Habits Parts:
 
@@ -175,13 +176,10 @@ Mix up the problems (Interleaving) from different chapters. This is helpful to 
 
     3. You need a plan. You need some willpower.
 
-
 3.  **The reward:** Habits exist because they reward us.
 
     1. Give yourself bigger rewards for bigger achievements. But after you finish them.
-
     2. **Example:** If I study for 4 hours today, I'll watch a movie, guilt free, at night.
-
     3. Habits are powerful because they create neurological cravings. It helps to add a new reward if you want to overcome your previous cravings.
 
     4. Only once your brain starts expecting a reward will the important rewiring takes place that will allow you to create new habits.
@@ -196,15 +194,15 @@ Mix up the problems (Interleaving) from different chapters. This is helpful to 
 
 ## Weekly/Daily list:
 
--   Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don't write them down, they will take the valuable slots of memory.
+- Researchers showed that writing your daily list the evening before helps you accomplish them the next day. If you don't write them down, they will take the valuable slots of memory.
 
--   Plan your finishing time, this is as important as planning your working time.
+- Plan your finishing time, this is as important as planning your working time.
 
--   Work in the most important and most disliked task first, even if it's only one pomodoro.
+- Work in the most important and most disliked task first, even if it's only one pomodoro.
 
--   Take notes about what works and what doesn't.
+- Take notes about what works and what doesn't.
 
--   Have a backup plan for when you will still procrastinate.
+- Have a backup plan for when you will still procrastinate.
 
 ## Focus on Process:
 
@@ -214,33 +212,32 @@ Solution: Focus on the process, not the product. The product is what triggers th
 
 ## Memory:
 
--   Use your visual memory to remember things.
+- Use your visual memory to remember things.
 
-    -   Example: Link a memorable picture to a formula.
+  - Example: Link a memorable picture to a formula.
 
--   Images help you encapsulate a very hard to remember concept by tapping into visual areas with enhanced memory abilities.
+- Images help you encapsulate a very hard to remember concept by tapping into visual areas with enhanced memory abilities.
 
--   The more neural hooks you can build by evoking the senses the easier it will be for you to recall the concept.
+- The more neural hooks you can build by evoking the senses the easier it will be for you to recall the concept.
 
--   Keep repeating what you want to learn so that the metabolic toxins won't suck away the neural patterns related to that memory. <mark>Spaced repetition</mark> is the key.
+- Keep repeating what you want to learn so that the metabolic toxins won't suck away the neural patterns related to that memory. <mark>Spaced repetition</mark> is the key.
 
--   Flashcards help. Consider using Anki.
+- Flashcards help. Consider using Anki.
 
--   Handwriting helps you deeply convert what you are trying to learn into neural memory structures.\
-Memory Techniques:
+- Handwriting helps you deeply convert what you are trying to learn into neural memory structures.\
+  Memory Techniques:
 
--   Create meaningful groups and abbreviations.
+- Create meaningful groups and abbreviations.
 
--   To remember numbers, associate them to memorable events.
+- To remember numbers, associate them to memorable events.
 
--   Create mnemonic phrases from first letters of the words you want to remember.
+- Create mnemonic phrases from first letters of the words you want to remember.
 
--   Memory Palace Technique: Use a familiar place (like the blueprint of your house) and associate visual images of things you want to remember with physical places.
+- Memory Palace Technique: Use a familiar place (like the blueprint of your house) and associate visual images of things you want to remember with physical places.
 
-    -   This is not easy. You'll be very slow at first. But with practice, you'll get better.
+  - This is not easy. You'll be very slow at first. But with practice, you'll get better.
 
-    -   The more you practice your "memory muscle" the easier you'll remember.
-
+  - The more you practice your "memory muscle" the easier you'll remember.
 
 ---
 
@@ -248,69 +245,69 @@ Memory Techniques:
 
 ## You should know:
 
--   Exercising is by far more effective than any drug to help you learn better. It helps new neurons survive.
+- Exercising is by far more effective than any drug to help you learn better. It helps new neurons survive.
 
--   Learning doesn't always progress linearly and logically. Inevitably your brain will hit a knowledge-collapse sometimes. This usually means your brain is restructuring its understanding, building a more solid foundation.
+- Learning doesn't always progress linearly and logically. Inevitably your brain will hit a knowledge-collapse sometimes. This usually means your brain is restructuring its understanding, building a more solid foundation.
 
--   You learn complex concepts by trying to make sense out of the information you perceive. Not by having someone else telling it to you.
+- You learn complex concepts by trying to make sense out of the information you perceive. Not by having someone else telling it to you.
 
 ## Metaphors
 
--   Metaphors and analogies are very helpful, not only to memorize, but to also understand different concepts.
+- Metaphors and analogies are very helpful, not only to memorize, but to also understand different concepts.
 
--   It is often helpful to pretend that you are the concept you're trying to understand.
+- It is often helpful to pretend that you are the concept you're trying to understand.
 
 ## Intelligence:
 
--   Intelligence does matter. Being smart usually equate to having a large working memory (more than just four slots).
+- Intelligence does matter. Being smart usually equate to having a large working memory (more than just four slots).
 
--   However, a super working memory can hold its thoughts so tightly that new thoughts won't easily find a way into the brain. Such a tightly controlled attention could use an occasional breath of ADHD. You attention shifts even if you don't want it to shift.
+- However, a super working memory can hold its thoughts so tightly that new thoughts won't easily find a way into the brain. Such a tightly controlled attention could use an occasional breath of ADHD. You attention shifts even if you don't want it to shift.
 
--   Deliberate practice is what helps the average brain lift into the realm of those naturally gifted. Practicing certain mental patterns deepens your mind.
+- Deliberate practice is what helps the average brain lift into the realm of those naturally gifted. Practicing certain mental patterns deepens your mind.
 
--   Brilliant scientist like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.
+- Brilliant scientist like Ramón y Cajal, the father of neuroscience, or Charles Darwin, were not exceptionally gifted. The key to their success was perseverance, taking responsibility for their learning and changing their thoughts.
 
--   Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
+- Take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
 
 ## Right hemisphere:
 
--   Helps us put our work into the big picture perspective and does reality checks.
+- Helps us put our work into the big picture perspective and does reality checks.
 
--   When you go through a homework or test questions and don't go back to check your work, you're acting like a person who's refusing to use parts of his brain.
+- When you go through a homework or test questions and don't go back to check your work, you're acting like a person who's refusing to use parts of his brain.
 
 ## Left hemisphere:
 
--   Interprets the world for us but with a tendency for rigidity, dogmatism and egocentricity.
+- Interprets the world for us but with a tendency for rigidity, dogmatism and egocentricity.
 
--   May lead to overconfidence. Example: believing dismissively that your answers are corrects.
+- May lead to overconfidence. Example: believing dismissively that your answers are corrects.
 
 ## Best practices:
 
--   Always step back and recheck to takes advantages of abilities of both-hemispheres interactions.
+- Always step back and recheck to takes advantages of abilities of both-hemispheres interactions.
 
--   Brainstorm and find focused people to analyze your work with.
+- Brainstorm and find focused people to analyze your work with.
 
-    -   Your errors are sometimes easier to be found by others.
+  - Your errors are sometimes easier to be found by others.
 
-    -   Explaining yourself to others helps you understand more.
+  - Explaining yourself to others helps you understand more.
 
-    -   Studying in a team helps you catch what you missed, or what you can't see.
+  - Studying in a team helps you catch what you missed, or what you can't see.
 
--   Don't fool yourself. Don't blindly believe in your intellectual abilities. Having a team can bring those projections down.
+- Don't fool yourself. Don't blindly believe in your intellectual abilities. Having a team can bring those projections down.
 
 ## Test Checklist:
 
--   Did you make a serious effort to understand the text? If you had a study guide, did you go through it?
+- Did you make a serious effort to understand the text? If you had a study guide, did you go through it?
 
--   Did you attempt to outline every homework problem solution?
+- Did you attempt to outline every homework problem solution?
 
--   Did you understand all your homework problems' solutions? If not, did you ask for explanations?
+- Did you understand all your homework problems' solutions? If not, did you ask for explanations?
 
--   Did you work with classmates on homework problems? checked your solutions?
+- Did you work with classmates on homework problems? checked your solutions?
 
--   Did you consult your instructor/teacher when you had a problem with something?
+- Did you consult your instructor/teacher when you had a problem with something?
 
--   Did you sleep well the night before the test?
+- Did you sleep well the night before the test?
 
 ---
 
@@ -326,14 +323,14 @@ Memory Techniques:
 
 ## Taking Test Tips:
 
--   Being Stressed before a test is normal. The body puts ups out chemicals when it's under stress. How you interpret the body reaction to those chemicals makes all the difference.
+- Being Stressed before a test is normal. The body puts ups out chemicals when it's under stress. How you interpret the body reaction to those chemicals makes all the difference.
 
-    -   Shift your thinking from "I am afraid of this test" to "I am excited to do my best".
+  - Shift your thinking from "I am afraid of this test" to "I am excited to do my best".
 
--   If you are stressed during a test, turn your attention to breathing. Relax, put your hand on your stomach and slowly draw some deep breaths. This will calm you down.
+- If you are stressed during a test, turn your attention to breathing. Relax, put your hand on your stomach and slowly draw some deep breaths. This will calm you down.
 
--   Relax your brain on the last day before a test. Have a quick final look at the materials. Feeling guilty the last day is a natural reaction even if you prepared well. So relax.
+- Relax your brain on the last day before a test. Have a quick final look at the materials. Feeling guilty the last day is a natural reaction even if you prepared well. So relax.
 
--   Good worry motivates you. Bad worry wastes your energy.
+- Good worry motivates you. Bad worry wastes your energy.
 
--   Double check your answers. Look away, shift your attention, and then recheck.
+- Double check your answers. Look away, shift your attention, and then recheck.

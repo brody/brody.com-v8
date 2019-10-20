@@ -60,8 +60,8 @@ $(document).on('keyup',
 		$(function () {
 			localStorage.setItem("theme", "theme-konami");
 			$("body").addClass("theme-konami");
-			$("body").removeClass("theme-night");
-			$("body").removeClass("theme-day");
+			$("body").removeClass("theme-dark");
+			$("body").removeClass("theme-light");
 			$("body").addClass("font-mono");
 			$("#theme-toggle svg").removeClass("text-primary-01");
 			$(".theme-konami").append("<audio id='1up' preload='auto'><source src='/audio/1-up.wav' type='audio/wav'></audio>");

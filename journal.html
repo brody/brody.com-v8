@@ -5,7 +5,7 @@ category: journal
 script: draw
 ---
 
-<div class="container text-02 max-w-xl mx-auto px-5 md:px-16 pt-12 md:pt-8">
+<div class="container text-02 max-w-4xl mx-auto px-5 md:px-16 pt-12 md:pt-8">
 
   <section id="journal" class="mb-24 md:mt-16 md:mb-40">
 
@@ -13,7 +13,7 @@ script: draw
 
     {% for post in site.categories.journal %}
 
-    <div class="journal-item max-w-md my-8 md:my-10 reveal">
+    <div class="journal-item max-w-2xl my-8 md:my-10 reveal">
       <a href="{{ post.url }}" class="text-2xl lg:text-3xl my-8 glitch"
         data-title="{{ post.title }}">{{ post.title }}</a>
       <time class="text-04 block uppercase font-semibold mt-3 mb-3"

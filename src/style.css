@@ -60,7 +60,7 @@
   color: white;
 }
 
-.theme-day {
+.theme-light {
   --colorBackground: #FFF;
   --colorBackgroundPrimary: #CE5374;
   --colorBackgroundPrimary02: #D399A8;
@@ -76,7 +76,7 @@
   --colorMobileText: #DDD;
 }
 
-.theme-night {
+.theme-dark {
   --colorBackground: #080808;
   --colorBackgroundPrimary: #CE5374;
   --colorBackgroundPrimary02: #9F2D4C;
@@ -108,37 +108,6 @@
   --colorMobileText: #DDD;
 }
 
-/* .konami {
-  --colorBackground: #080A54;
-  --colorBackgroundPrimary: #CE5374;
-  --colorBackgroundPrimary02: #9F2D4C;
-  --colorBackgroundPrimary03: #02054F;
-  --colorForeground01: #FFF;
-  --colorForeground02: #BCBEE0;
-  --colorForeground03: #8B8DCC;
-  --colorForeground04: #676BB5;
-  --colorPrimary01: #CE5374;
-  --colorPrimary02: #E189A1;
-  --colorPrimary03: #02054F;
-  --colorMobileBar: #121212;
-  --colorMobileText: #DDD;
-} */
-/* 
-.konami {
-  --colorBackground: #0A091E;
-  --colorBackgroundPrimary: #00989C;
-  --colorBackgroundPrimary02: #008285;
-  --colorBackgroundPrimary03: #561A4F;
-  --colorForeground01: #FFF;
-  --colorForeground02: #FFCCF6;
-  --colorForeground03: #FF80E9;
-  --colorForeground04: #A42294;
-  --colorPrimary01: #34E5E9;
-  --colorPrimary02: #00989C;
-  --colorPrimary03: #064250;
-  --colorMobileBar: #121212;
-  --colorMobileText: #DDD;
-} */
 
 #draw,
 #wip {

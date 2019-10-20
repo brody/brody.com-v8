@@ -2,33 +2,33 @@
     line-height: 1.625;
 
     & p {
-        @apply mt-6 mb-6 max-w-md;
+        @apply mt-6 mb-6 max-w-2xl;
     }
 
     & h1,
     & h2,
     & h3,
     & h4 {
-        @apply font-bold mt-6 max-w-md;
+        @apply font-bold mt-6 max-w-2xl;
     }
 
     & h1 {
-        @apply font-serif text-2xl font-bold max-w-md;
+        @apply font-serif text-2xl font-bold max-w-2xl;
         font-size: 1.5rem
     }
 
     & h2 {
-        @apply font-serif text-xl text-03 font-normal max-w-md;
+        @apply font-serif text-xl text-03 font-normal max-w-2xl;
         font-size: 1.25rem
     }
 
     & h3 {
-        @apply text-04 block font-semibold text-base max-w-md;
+        @apply text-04 block font-semibold text-base max-w-2xl;
         font-size: 1.125rem
     }
 
     & h4 {
-        @apply text-04 text-sm uppercase font-normal max-w-md;
+        @apply text-04 text-sm uppercase font-normal max-w-2xl;
     }
 
     & blockquote {
@@ -42,7 +42,7 @@
     }
 
     & iframe {
-        @apply w-screen -mx-5 max-w-md;
+        @apply w-screen -mx-5 max-w-2xl;
     }
 
     & twitter-widget {
@@ -51,11 +51,11 @@
 
     & ol,
     & ul {
-        @apply pl-6 max-w-md;
+        @apply pl-6 max-w-2xl;
         counter-reset: section;
 
         /* & ul li {
-            @apply list-reset relative;
+            @apply relative;
             &::before {
                 @apply text-primary-01;
                 content: "\25AA";       
@@ -63,7 +63,7 @@
             }    
         }
         & ol li {
-            @apply list-reset;
+            @apply ;
             &::before {
                 @apply text-primary-01 absolute text-lg ;
                 counter-increment: section;            
@@ -84,7 +84,7 @@
     }
 
     /* & ul li {
-        @apply list-reset;
+        @apply ;
         &::before {
             @apply text-primary-01 absolute;
             content: "\25AA";       
@@ -92,7 +92,7 @@
         }    
     }
     /* & ol li {
-        @apply list-reset;
+        @apply ;
         &::before {
             @apply text-primary-01 absolute text-lg ;
             counter-increment: section;            

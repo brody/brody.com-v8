@@ -61,10 +61,10 @@ $(function () {
         $("#nav").toggleClass("nav-open");
     });
     $("#toggle-day").on("click", function () {
-        localStorage.setItem("theme", "theme-day");
-        $("html").removeClass("theme-night");
+        localStorage.setItem("theme", "theme-light");
+        $("html").removeClass("theme-dark");
         $("html").removeClass("font-mono");
-        $("html").addClass("theme-day");
+        $("html").addClass("theme-light");
         $("#theme-toggle svg").removeClass("text-primary-01");
         $(this).find("svg").addClass("text-primary-01");
         if ($("html").hasClass("theme-konami")) {
@@ -73,10 +73,10 @@ $(function () {
         };
     });
     $("#toggle-night").on("click", function () {
-        localStorage.setItem("theme", "theme-night");
-        $("html").removeClass("theme-day");
+        localStorage.setItem("theme", "theme-dark");
+        $("html").removeClass("theme-light");
         $("html").removeClass("font-mono");
-        $("html").addClass("theme-night");
+        $("html").addClass("theme-dark");
         $("#theme-toggle svg").removeClass("text-primary-01");
         $(this).find("svg").addClass("text-primary-01");
         if ($("html").hasClass("theme-konami")) {
@@ -87,8 +87,8 @@ $(function () {
     $("#peace").on("click", function () {
         localStorage.setItem("theme", "konami");
         $("html").addClass("theme-konami");
-        $("html").removeClass("theme-night");
-        $("html").removeClass("theme-day");
+        $("html").removeClass("theme-dark");
+        $("html").removeClass("theme-light");
         $("html").addClass("font-mono");
         $("#theme-toggle svg").removeClass("text-primary-01");
         draw();

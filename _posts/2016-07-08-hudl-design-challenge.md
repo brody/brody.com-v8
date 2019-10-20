@@ -39,7 +39,6 @@ The challenge was to solve some pain points of their _Hudl Technique_ mobile app
 >
 > - There’s no notion of separating videos into groups or teams.
 
-
 # Deliverables
 
 On top of the solving the pain points, the challenge was used to demonstrate your design process, UI design, prototyping & front end coding skills.
@@ -47,7 +46,7 @@ On top of the solving the pain points, the challenge was used to demonstrate you
 Check out the link below with the documentation of the solution I came to. 👇
 
 <div class="link-card">
-  <a href="/hudl" class="border rounded p-4 md:p-5 my-6 lg:my-12 button shadow-none max-w-md flex flex-wrap" target="_blank">
+  <a href="/hudl" class="border rounded p-4 md:p-5 my-6 lg:my-12 button shadow-none max-w-2xl flex flex-wrap" target="_blank">
     <h4 class="text-04 text-base leading-tight w-full uppercase font-semibold mb-0 lg:mb-0 glitch" data-text="Source:">Link:</h4>
     <span class="mt-2 mb-3 text-lg lg:text-xl w-full">Hudl Design Challenge</span>
     <button class="ic_external fill-current rounded text-white bg-primary py-1 pl-2 pr-3 flex items-center">

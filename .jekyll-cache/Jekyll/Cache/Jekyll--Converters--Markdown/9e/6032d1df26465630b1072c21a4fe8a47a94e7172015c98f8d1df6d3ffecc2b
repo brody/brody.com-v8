@@ -1,4 +1,4 @@
-I"Ø<p>JobAdder is a global recruitment platform built for staffing agency and in-house corporate recruiters. Used by over 10,000 people every day, we empower recruiters all over the world to recruit smarter and simpler.</p>
+I"Ü<p>JobAdder is a global recruitment platform built for staffing agency and in-house corporate recruiters. Used by over 10,000 people every day, we empower recruiters all over the world to recruit smarter and simpler.</p>
 
 <h1 id="navigation-redesign">Navigation Redesign</h1>
 
@@ -20,7 +20,7 @@
 
 <h2 id="my-role">My role</h2>
 
-<p>I worked with the Product Manager, <a href="https://twitter.com/dysontom" target="_blank">Tom Dyson</a>, and JobAdder CEO, <a href="https://twitter.com/BrettIredale" target="_blank">Brett Iredale</a>, to empathise with the users to understand and define the problem.</p>
+<p>I worked with the Product Manager, <a href="https://twitter.com/dysontom" target="\_blank">Tom Dyson</a>, and JobAdder CEO, <a href="https://twitter.com/BrettIredale" target="\_blank">Brett Iredale</a>, to empathise with the users to understand and define the problem.</p>
 
 <p>Starting with mapping the information architecture of the JobAdder suite of products with the aim to iterate and streamline the complex world of JobAdder.</p>
 
@@ -64,7 +64,7 @@
 <p>Then moving from Sketch to code, I created a prototype to explore the interactions and animations.</p>
 
 <div class="link-card">
-  <a href="https://codepen.io/brody/full/GwKryN" target="_blank" class="border rounded p-4 md:p-5 my-3 lg:my-6 button shadow-none max-w-md flex flex-wrap">
+  <a href="https://codepen.io/brody/full/GwKryN" target="_blank" class="border rounded p-4 md:p-5 my-3 lg:my-6 button shadow-none max-w-2xl flex flex-wrap">
     <h4 class="text-04 text-base leading-tight w-full uppercase font-semibold mb-0 lg:mb-0 glitch" data-text="Link:">Link:</h4>
     <span class="mt-2 mb-3 text-lg lg:text-xl w-full">New Navigation Prototype</span>
     <button class="ic_external fill-current rounded text-white bg-primary py-1 pl-2 pr-3 flex items-center">
@@ -74,7 +74,7 @@
   </a>
 </div>
 
-<p>Working closely with the developer, <a href="https://www.linkedin.com/in/alexandre-periphanos" target="_blank">Alex Periphanos</a>, the navigation was implemented so we were able to test it with out users.</p>
+<p>Working closely with the developer, <a href="https://www.linkedin.com/in/alexandre-periphanos" target="\_blank">Alex Periphanos</a>, the navigation was implemented so we were able to test it with out users.</p>
 
 <h2 id="learnings-and-iteration">Learnings and iteration</h2>
 

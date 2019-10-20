@@ -1,35 +1,36 @@
 {% for post in site.categories.journal %}
-      {% if post.url == page.url %}
-          {% assign post_index0 = forloop.index0 %}
-          {% assign post_index1 = forloop.index %}
-      {% endif %}
-  {% endfor %}
-  {% for post in site.categories.journal %}
-      {% if post_index0 == forloop.index %}
-          {% assign next_post = post.url %}
-      {% endif %}
-      {% if post_index1 == forloop.index0 %}
-          {% assign prev_post = post.url %}
-          {% assign prev_title = post.title %}
-          {% assign prev_description = post.description %}
-          {% assign prev_date = post.date %}
-      {% endif %}
-  {% endfor %}
-  {% if next_post %}
+{% if post.url == page.url %}
+{% assign post_index0 = forloop.index0 %}
+{% assign post_index1 = forloop.index %}
+{% endif %}
+{% endfor %}
+{% for post in site.categories.journal %}
+{% if post_index0 == forloop.index %}
+{% assign next_post = post.url %}
+{% endif %}
+{% if post_index1 == forloop.index0 %}
+{% assign prev_post = post.url %}
+{% assign prev_title = post.title %}
+{% assign prev_description = post.description %}
+{% assign prev_date = post.date %}
+{% endif %}
+{% endfor %}
+{% if next_post %}
 
-  {% endif %}
-  {% if prev_post %}
+{% endif %}
+{% if prev_post %}
 
-      <section class="next-post lh-copy">
+<section class="next-post lh-copy">
 
-        <a href="{{prev_post}}">
-          <h3 class="mt2">Next post</h3>
-          <time class="f3 grey-light night-grey-dark db mt0 mb2 mw600 center" datetime="{{ prev_date | date: " %Y-%m-%d " }}">{{ prev_date | date: "%-d %B %Y" }}</time>
-          <h1 class="mt0 mb1">{{ prev_title }}</h1>
-          <p class="mv0">{{ prev_description }}</p>
-        </a>
+    <a href="{{prev_post}}">
+        <h3 class="mt2">Next post</h3>
+        <time class="f3 grey-400 night-gray-600 db mt0 mb2 mw600 center"
+            datetime="{{ prev_date | date: " %Y-%m-%d " }}">{{ prev_date | date: "%-d %B %Y" }}</time>
+        <h1 class="mt0 mb1">{{ prev_title }}</h1>
+        <p class="mv0">{{ prev_description }}</p>
+    </a>
 
 
-      </section>
+</section>
 
-  {% endif %}
+{% endif %}

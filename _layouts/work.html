@@ -19,44 +19,46 @@
 
 <body class="bg transition-background mt-0 mb-24 md:mt-24 md:mb-0 lg:mt-36 reveal">
 
-  {% include nav.html %}
+    {% include nav.html %}
 
-  <div class="post container text-02 max-w-xl mx-auto px-5 md:px-16 pt-12 md:pt-8">
+    <div class="post container text-02 max-w-4xl mx-auto px-5 md:px-16 pt-12 md:pt-8">
 
-      <section class="post-header mb-8 md:mt-16 md:mb-16">
+        <section class="post-header mb-8 md:mt-16 md:mb-16">
 
-          <time class="glitch text-04 block uppercase font-semibold mt-5 mb-8 lg:mb-12" data-text="{{ page.date | date: '%-d %B %Y' }}" datetime="{{ page.date | date: ' %Y-%m-%d ' }}">{{ page.date | date: "%-d %B %Y" }}</time>
-      
-          <h1 class="glitch text-2xl font-normal lg:text-4xl my-8 md:my-10" data-text="{{ page.title }}">
-              {{ page.title }}
-          </h1>
+            <time class="glitch text-04 block uppercase font-semibold mt-5 mb-8 lg:mb-12"
+                data-text="{{ page.date | date: '%-d %B %Y' }}"
+                datetime="{{ page.date | date: ' %Y-%m-%d ' }}">{{ page.date | date: "%-d %B %Y" }}</time>
 
-          {% if page.sub-title != nil %}
-          <h2 class="text-xl text-03 font-normal lg:text-2xl -mt-4 mb-8 md:mb-10 md:-mt-5">{{ page.sub-title }}</h2>
-          {% endif %}
-      
-      </section>
-      
-      <section class="post-body text-02 text lg:text-xl mt-3 mb-24 md:mb-40">
+            <h1 class="glitch text-2xl font-normal lg:text-4xl my-8 md:my-10" data-text="{{ page.title }}">
+                {{ page.title }}
+            </h1>
 
-          {% include source.html %}
+            {% if page.sub-title != nil %}
+            <h2 class="text-xl text-03 font-normal lg:text-2xl -mt-4 mb-8 md:mb-10 md:-mt-5">{{ page.sub-title }}</h2>
+            {% endif %}
 
-          {{ content }}
+        </section>
 
-          {% include book.html %}
+        <section class="post-body text-02 text lg:text-xl mt-3 mb-24 md:mb-40">
 
-          <!-- {% include tags.html %} -->
+            {% include source.html %}
 
-          <!-- {% include nextpost.html %} -->
-      
+            {{ content }}
 
-      </section>
+            {% include book.html %}
 
-  </div>
+            <!-- {% include tags.html %} -->
 
-  {% include footer.html %}
-  {% include script.html %}
-  {% include analytics.html %}
+            <!-- {% include nextpost.html %} -->
+
+
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+    {% include script.html %}
+    {% include analytics.html %}
 
 </body>
 

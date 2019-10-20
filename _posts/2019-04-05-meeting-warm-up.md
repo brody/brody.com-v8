@@ -2,7 +2,7 @@
 layout: post
 
 title: Meeting Warm Up Games
-sub-title: 
+sub-title:
 date: 2019-04-05 00:00:00 Australia/Sydney
 
 permalink: /meeting-warm-up/
@@ -23,7 +23,6 @@ book-url:
 book-url-label:
 book-cover:
 book-rating:
-
 ---
 
 <div class="w-screen md:w-100 md:max-w-full -mx-5 md:mx-0 my-4 md:my-16 relative">
@@ -32,19 +31,21 @@ book-rating:
 
 Recently, I've been running a game of Pictionary, before our designer catch-up meetings, to break the ice and get the creative juices flowing.
 
-You only need a few things to run one yourself, with both local and remote team members alike.  
+You only need a few things to run one yourself, with both local and remote team members alike.
 
 # Ingredients
 
-- Whiteboard app — [Invision Freehand](https://www.invisionapp.com/feature/freehand){: target="_blank"}, there are plenty of other options like [Miro](https://realtimeboard.com/){: target="_blank"}, [Witeboard](https://witeboard.com){: target="_blank"}
-- Words/Phrases — [Pictionary Generator](https://peachytools.com/pictionary-generator){: target="_blank"}
-- Timer — [Timer app](https://github.com/michaelvillar/timer-app){: target="_blank"}
-- Screen Sharing — [Appear.in](https://appear.in/){: target="_blank"}, [Google Meet](https://meet.google.com/){: target="_blank"}, or [Zoom](https://zoom.us/){: target="_blank"}
+- Whiteboard app — [Invision Freehand](https://www.invisionapp.com/feature/freehand){: target="\_blank"}, there are plenty of other options like [Miro](https://realtimeboard.com/){: target="\_blank"}, [Witeboard](https://witeboard.com){: target="\_blank"}
+- Words/Phrases — [Pictionary Generator](https://peachytools.com/pictionary-generator){: target="\_blank"}
+- Timer — [Timer app](https://github.com/michaelvillar/timer-app){: target="\_blank"}
+- Screen Sharing — [Appear.in](https://appear.in/){: target="\_blank"}, [Google Meet](https://meet.google.com/){: target="\_blank"}, or [Zoom](https://zoom.us/){: target="\_blank"}
 
 ## Nice to have
+
 - iPad with Apple Pencil & corresponding Whiteboard app
 
 # Recipe
+
 1. Pick team members of 2 at random.
 2. Share & display the whiteboard using the screen sharing/meeting app.
 3. Get team member ready, with canvas centered.
