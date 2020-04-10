@@ -233,6 +233,15 @@ a {
 
 }
 
+.h-0 {
+  height: 0;
+}
+
+.\31 6\/9 {
+  @apply overflow-hidden h-0 relative max-w-full my-8;
+  padding-bottom: 56.25%;
+}
+
 #sandwich span {
   width: 24px;
   height: 3px;
