@@ -1,0 +1,121 @@
+I"�<p>JobAdder is a global recruitment platform built for staffing agency and in-house corporate recruiters. Used by over 10,000 people every day, we empower recruiters all over the world to recruit smarter and simpler.</p>
+
+<h3 style="margin-bottom: 1rem !important" id="table-of-contents">Table of contents</h3>
+<ol>
+  <li><a href="#navigation-redesign" class="inline-flex">Navigation Redesign</a>
+02 .<a href="#redesign--design-system" class="inline-flex">Redesign &amp; Design System</a></li>
+</ol>
+
+<h1 id="navigation-redesign">Navigation Redesign</h1>
+
+<h2 id="problem">Problem</h2>
+
+<p>The previous navigation was a full width, persistent and took up 1/4 of the screen at all times. Users had always made comments and complaints about not being able to use the full height of the screen to view jobs, job ads and candidates.</p>
+
+<h2 id="previous-design">Previous design</h2>
+
+<div class="w-full px-2 py-1">
+  <img data-action="zoom" src="/image/work/jobadder/nav-old.png" />
+</div>
+
+<h2 id="new-design">New design</h2>
+
+<div class="w-full px-2 py-1">
+  <img data-action="zoom" src="/image/work/jobadder/nav-new.png" />
+</div>
+
+<h2 id="my-role">My role</h2>
+
+<p>I worked with the Product Manager, <a href="https://twitter.com/dysontom" target="\_blank">Tom Dyson</a>, and JobAdder CEO, <a href="https://twitter.com/BrettIredale" target="\_blank">Brett Iredale</a>, to empathise with the users to understand and define the problem.</p>
+
+<p>Starting with mapping the information architecture of the JobAdder suite of products with the aim to iterate and streamline the complex world of JobAdder.</p>
+
+<p>I researched equally complex SaaS products to explore how others solved the same problem. Using them as inspiration to help evolve potential options.</p>
+
+<p>I created wireframe upon wireframe with no fear of failure, just aiming to throw as many ideas at the wall to see what sticks.</p>
+
+<h3 id="a-small-sample">A small sample</h3>
+
+<div class="flex flex-wrap -mx-2 -mt-8">
+
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf1.jpg" />
+  </div>
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf2.jpg" />
+  </div>
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf3.jpg" />
+  </div>
+    <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf4.jpg" />
+  </div>
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf5.jpg" />
+  </div>
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf6.jpg" />
+  </div>
+    <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf7.jpg" />
+  </div>
+  <div class="w-1/2 md:w-1/4 px-2 py-1">
+    <img data-action="zoom" src="/image/work/jobadder/wireframe/wf8.jpg" />
+  </div>
+
+</div>
+
+<p>Once I’d found and got sign off on a solution that covered all business and user goals I moved onto high fidelity designs using the <em>Venom</em> color palette and giving focus to accessibility.</p>
+
+<p>Then moving from Sketch to code, I created a prototype to explore the interactions and animations.</p>
+
+<div class="link-card">
+  <a href="https://codepen.io/brody/full/GwKryN" target="_blank" class="border rounded p-4 md:p-5 my-3 lg:my-6 button shadow-none max-w-2xl flex flex-wrap">
+    <h4 class="text-04 text-base leading-tight w-full uppercase font-semibold mb-0 lg:mb-0 glitch" data-text="Link:">Link:</h4>
+    <span class="mt-2 mb-3 text-lg lg:text-xl w-full">New Navigation Prototype</span>
+    <button class="ic_external fill-current rounded text-white bg-primary py-1 pl-2 pr-3 flex items-center">
+      <svg class="mr-2" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m13.8786797 8h-6.3786797c-.82842712 0-1.5-.67157288-1.5-1.5s.67157288-1.5 1.5-1.5h10c.8284271 0 1.5.67157288 1.5 1.5v10c0 .8284271-.6715729 1.5-1.5 1.5s-1.5-.6715729-1.5-1.5v-6.3786797l-8.95020426 8.9502043c-.58578644.5857864-1.53553391.5857864-2.12132035 0-.58578643-.5857864-.58578643-1.5355339 0-2.1213203z" /></svg>
+      <span class="label text-base md:text-lg leading-tight">Codepen</span>
+    </button>
+  </a>
+</div>
+
+<p>Working closely with the developer, <a href="https://www.linkedin.com/in/alexandre-periphanos" target="\_blank">Alex Periphanos</a>, the navigation was implemented so we were able to test it with out users.</p>
+
+<h2 id="learnings-and-iteration">Learnings and iteration</h2>
+
+<p>The average JobAdder user isn’t overly tech savvy so I chose to limit breaking mental modals where possible. Instead of restructuring the information architecture, I left that to a future version.</p>
+
+<p>Another important choice was to default to the navigation being expanded. Initially having the labels visible will allow the users to easily navigate and when comfortable, collapse the nav to utilize more of the screen.</p>
+
+<h2 id="results">Results</h2>
+
+<p>The navigation launched mid-December, after a small group of users got access to it with positive feedback. Once globally live, the feedback too was overwhelmingly positive.</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We&#39;ve moved (to the left) 👈🏼  Say hello to our new side navigation bar! Visit any JobAdder page with a single click and leave space for the important stuff with minimised &amp; expandable view options. <a href="https://t.co/crp84KLGqV">pic.twitter.com/crp84KLGqV</a></p>&mdash; JobAdder (@JobAdder) <a href="https://twitter.com/JobAdder/status/1072964137540415488?ref_src=twsrc%5Etfw">December 12, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<hr />
+
+<h1 id="redesign--design-system">Redesign &amp; Design System</h1>
+
+<p>After multiple UI design explorations, I started defining patterns, documenting &amp; building out the Sketch component library.</p>
+
+<h2 id="base-design-elements">Base design elements</h2>
+
+<div class="w-full px-2 py-1">
+  <img data-action="zoom" src="/image/work/jobadder/venom.png" />
+</div>
+
+<h2 id="main-table-view-before-and-after">Main table view before and after</h2>
+
+<div class="w-full px-2 py-1">
+  <img data-action="zoom" src="/image/work/jobadder/redesign1.png" />
+</div>
+
+<h2 id="candidate-details-before--after">Candidate details before &amp; after</h2>
+
+<div class="w-full px-2 py-1">
+  <img data-action="zoom" src="/image/work/jobadder/redesign2.png" />
+</div>
+:ET
